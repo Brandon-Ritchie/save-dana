@@ -11,12 +11,8 @@ const PageLayout = () => {
 
 const NavBar = () => {
   return (
-    <div className="navbar bg-base-100 w-full">
-      <div className="flex-1">
-        <Link className="btn btn-ghost text-xl" to="/">
-          Brandon Ritchie
-        </Link>
-      </div>
+    <div className="navbar w-full bg-primary">
+      <div className="flex-1"></div>
 
       <nav className="flex-none">
         <div className="dropdown dropdown-end">
@@ -38,7 +34,7 @@ const NavBar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
           >
             <Links />
           </ul>
@@ -56,7 +52,9 @@ const NavBar = () => {
 const Links = () => (
   <>
     <li>
-      <Link to="/">Home</Link>
+      <Link to="/" className="text-white">
+        Home
+      </Link>
     </li>
   </>
 );
