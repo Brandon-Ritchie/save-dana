@@ -19,10 +19,9 @@ const NavBar = () => {
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
+              className="h-5 w-5 fill-white"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              stroke="white"
             >
               <path
                 strokeLinecap="round"
@@ -41,7 +40,7 @@ const NavBar = () => {
         </div>
       </nav>
       <nav className="navbar-end hidden flex-none lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 text-white">
           <Links />
         </ul>
       </nav>
@@ -49,14 +48,23 @@ const NavBar = () => {
   );
 };
 
-const Links = () => (
-  <>
-    <li>
-      <Link to="/" className="text-white">
-        Home
-      </Link>
-    </li>
-  </>
-);
+const Links = () => {
+  const links = [
+    { to: "/", label: "Home" },
+    { to: "/testimonials", label: "Testimonials" },
+  ];
+
+  return (
+    <>
+      {links.map((link) => (
+        <li key={link.to}>
+          <Link to={link.to} className="font-bold">
+            {link.label}
+          </Link>
+        </li>
+      ))}
+    </>
+  );
+};
 
 export default PageLayout;
