@@ -1,9 +1,11 @@
 function Root() {
-  const paragraphClassName = "my-2";
+  const paragraphClassName = "my-4";
 
   return (
-    <div className="mx-10">
-      <h1 className="my-3 text-5xl">YSU’s War on Music</h1>
+    <div className="mx-16 my-8">
+      <h1 className="my-8 text-center text-5xl">
+        Youngstown State University’s War on Music
+      </h1>
 
       <p className={paragraphClassName}>
         On December 6, 2023, YSU Associate Provost Jennifer Pintar gave a
