@@ -7,7 +7,7 @@ function Root() {
   const paragraphClassName = "my-4";
 
   return (
-    <div className="mx-16 my-8">
+    <>
       <h1 className="my-8 text-center text-5xl">
         Youngstown State University’s War on Music
       </h1>
@@ -158,7 +158,7 @@ function Root() {
         will quickly enter a death spiral, unable to attract recruits (even in
         Music Education) in sufficient quantities to survive.
       </p>
-    </div>
+    </>
   );
 }
 

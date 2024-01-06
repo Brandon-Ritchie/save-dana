@@ -1,5 +1,4 @@
 export default function WhatCanIDo() {
-  const h2className = "text-3xl font-bold mt-8 mb-4";
   const ulClassName = "mx-3";
 
   const administration = [
@@ -44,10 +43,10 @@ export default function WhatCanIDo() {
   ];
 
   return (
-    <div className="mx-16 my-8">
-      <h1 className="my-8 text-center text-5xl">What Can I Do?</h1>
+    <>
+      <h1>What Can I Do?</h1>
       <section>
-        <h2 className={h2className}>Sign The Petition</h2>
+        <h2>Sign The Petition</h2>
         <p>
           <a className="underline" href="https://chng.it/z6KnYcwDTk">
             Sign the Petition
@@ -56,14 +55,14 @@ export default function WhatCanIDo() {
         </p>
       </section>
       <section>
-        <h2 className={h2className}>Spread The Word!</h2>
+        <h2>Spread The Word!</h2>
         <p>
           Do you know any alumni? Particularly <strong>donors</strong> to YSU?
           Make certain they know about this!
         </p>
       </section>
       <section>
-        <h2 className={h2className}>Write To The Administration</h2>
+        <h2>Write To The Administration</h2>
         <ul className={ulClassName}>
           {administration.map((person) => (
             <li key={person.email}>
@@ -75,7 +74,7 @@ export default function WhatCanIDo() {
         </ul>
       </section>
       <section>
-        <h2 className={h2className}>Write To The Board of Trustees</h2>
+        <h2>Write To The Board of Trustees</h2>
         <ul className={ulClassName}>
           {boardOfTrustees.map((person) => (
             <li key={person.email}>
@@ -86,6 +85,6 @@ export default function WhatCanIDo() {
           ))}
         </ul>
       </section>
-    </div>
+    </>
   );
 }

@@ -2,10 +2,12 @@ import { Link, Outlet } from "react-router-dom";
 
 const PageLayout = () => {
   return (
-    <main className="h-screen">
+    <>
       <NavBar />
-      <Outlet />
-    </main>
+      <main className="mx-16 my-8 h-screen">
+        <Outlet />
+      </main>
+    </>
   );
 };
 
