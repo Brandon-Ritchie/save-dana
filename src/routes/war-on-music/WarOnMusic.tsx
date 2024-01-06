@@ -156,7 +156,7 @@ const ImageSection = ({
   caption?: string;
 }) => (
   <div className="flex flex-col items-center">
-    <Card backgroundClass="bg-accent">
+    <Card backgroundClass="bg-accent" compact={window.innerWidth < 1024}>
       <a href={src}>
         <img src={src} alt={alt} />
       </a>
