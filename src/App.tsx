@@ -4,6 +4,7 @@ import Root from "./routes/Root.tsx";
 import Testimonials from "./routes/testimonials/Testimonials.tsx";
 import Testimonial from "./routes/testimonials/[name]/IndividualTestimonial.tsx";
 import WhatCanIDo from "./routes/what-can-i-do/WhatCanIDo.tsx";
+import WarOnMusic from "./routes/war-on-music/WarOnMusic.tsx";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Root />,
+      },
+      {
+        path: "/war-on-music",
+        element: <WarOnMusic />,
       },
       {
         path: "/testimonials",

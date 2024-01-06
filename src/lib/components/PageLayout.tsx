@@ -1,13 +1,16 @@
 import { Link, Outlet } from "react-router-dom";
+import danaSchoolOfMusic from "@/assets/dana-school-of-music.jpeg";
+import blissHall from "@/assets/bliss-hall.jpeg";
 
 const PageLayout = () => {
   return (
-    <>
+    <div className="flex min-h-screen flex-col justify-between">
       <NavBar />
-      <main className="h-screen px-8 py-4 lg:px-16 lg:py-8">
+      <main className="flex-1 px-8 pb-4 lg:px-16">
         <Outlet />
       </main>
-    </>
+      <Footer />
+    </div>
   );
 };
 
@@ -53,6 +56,7 @@ const NavBar = () => {
 const Links = () => {
   const links = [
     { to: "/", label: "Home" },
+    { to: "/war-on-music", label: "War on Music" },
     { to: "/testimonials", label: "Testimonials" },
     { to: "/what-can-i-do", label: "What Can I Do?" },
   ];
@@ -69,5 +73,18 @@ const Links = () => {
     </>
   );
 };
+
+const Footer = () => (
+  <div className="flex w-full flex-col lg:flex-row">
+    <div
+      style={{ backgroundImage: `url(${danaSchoolOfMusic})` }}
+      className="h-20 w-full bg-cover bg-center lg:h-20 lg:w-1/2"
+    ></div>
+    <div
+      style={{ backgroundImage: `url(${blissHall})` }}
+      className="h-20 w-full bg-cover bg-center lg:h-20 lg:w-1/2"
+    ></div>
+  </div>
+);
 
 export default PageLayout;
