@@ -121,11 +121,13 @@ function Root() {
         from 11,298 to 10,993.
       </p>
 
-      <Card backgroundClass="bg-accent">
-        <a href={Enrollment2}>
-          <img src={Enrollment2} alt="actual enrollment numbers from 2021" />
-        </a>
-      </Card>
+      <div className="flex flex-col items-center">
+        <Card backgroundClass="bg-accent">
+          <a href={Enrollment2}>
+            <img src={Enrollment2} alt="actual enrollment numbers from 2021" />
+          </a>
+        </Card>
+      </div>
 
       <p className={paragraphClassName}>
         YSU’s War on Music began several years ago, after Dana’s undergraduate
