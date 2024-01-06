@@ -31,13 +31,13 @@ function Root() {
         here was her slide regarding Graduate student enrollment at YSU:
       </p>
 
-      <div>
+      <a href={graduateEnrollment}>
         <img
           className="mx-auto"
           src={graduateEnrollment}
           alt="A slide showing the number of enrollment per graduate degrees"
         />
-      </div>
+      </a>
 
       <p className={paragraphClassName}>
         She claimed that there were “less than 5” Graduate students enrolled in
@@ -46,13 +46,13 @@ function Root() {
         students enrolled in an MM in Music Performance.
       </p>
 
-      <div>
+      <a href={Enrollment1}>
         <img
           className="mx-auto"
           src={Enrollment1}
           alt="actual enrollment numbers from 2021"
         />
-      </div>
+      </a>
 
       <p className={paragraphClassName}>
         Pintar also subdivided Dana’s Graduate programs by major (i.e., with
@@ -70,11 +70,13 @@ function Root() {
       </p>
 
       <div className="mb-3">
-        <img
-          className="mx-auto"
-          src={assessment}
-          alt="A slide showing data on the assessment of undergraduate programs"
-        />
+        <a href={assessment}>
+          <img
+            className="mx-auto"
+            src={assessment}
+            alt="A slide showing data on the assessment of undergraduate programs"
+          />
+        </a>
         <span className="text-sm">
           (The typographical error on the bottom right was corrected on the BoT
           page weeks later. This demonstration of Pintar’s own ineptitude at
@@ -114,13 +116,13 @@ function Root() {
         from 11,298 to 10,993.
       </p>
 
-      <div>
+      <a href={Enrollment2}>
         <img
           className="mx-auto"
           src={Enrollment2}
           alt="actual enrollment numbers from 2021"
         />
-      </div>
+      </a>
 
       <p className={paragraphClassName}>
         YSU’s War on Music began several years ago, after Dana’s undergraduate
