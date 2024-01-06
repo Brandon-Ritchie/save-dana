@@ -3,8 +3,13 @@ import Enrollment1 from "../../assets/2021-dana-enrollment.png";
 import Enrollment2 from "../../assets/2023-dana-enrollment.png";
 import assessment from "../../assets/assessment-of-undergraduate.jpeg";
 import Card from "@/lib/components/Card";
+import { useLayoutEffect } from "react";
 
 export default () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   const paragraphClassName = "my-4";
 
   return (

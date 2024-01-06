@@ -1,11 +1,16 @@
 import Card from "@/lib/components/TestimonialCard";
 import { testimonials } from "@/lib/data/testimonials";
+import { useLayoutEffect } from "react";
 
 export default () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <>
       <h1>Testimonials</h1>
-      <section className="p-4">
+      <section className="lg:p-4">
         <p>
           Below are alumni success stories and statements about the upcoming
           closure of the Dana School of Music.
@@ -18,7 +23,7 @@ export default () => {
             className="underline"
             href="mailto:save.the.dana.school.of.music@gmail.com"
           >
-            this email address
+            save.the.dana.school.of.music@gmail.com
           </a>
         </p>
       </section>

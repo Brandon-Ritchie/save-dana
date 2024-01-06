@@ -1,4 +1,10 @@
+import { useLayoutEffect } from "react";
+
 export default function WhatCanIDo() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   const ulClassName = "mx-3";
 
   const administration = [
