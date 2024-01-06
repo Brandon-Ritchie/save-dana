@@ -46,8 +46,10 @@ export default () => {
         </Card>
       </aside>
       <section className="my-4 flex flex-col justify-center lg:col-span-2">
-        {testimonial.description.map((paragraph) => (
-          <p className="mb-2">{paragraph}</p>
+        {testimonial.description.map((paragraph, index) => (
+          <p className="mb-2" key={index}>
+            {paragraph}
+          </p>
         ))}
       </section>
     </div>
