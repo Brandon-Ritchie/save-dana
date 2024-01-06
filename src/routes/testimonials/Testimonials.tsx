@@ -1,4 +1,4 @@
-import Card from "@/lib/components/Card";
+import Card from "@/lib/components/TestimonialCard";
 import { testimonials } from "@/lib/data/testimonials";
 
 export default () => {
@@ -39,7 +39,7 @@ export default () => {
               title={testimonials[key].name}
               description={testimonials[key].description}
               buttonText="Read More"
-              buttonLink={`/testimonials/${key}`}
+              buttonLink={`./${key}`}
             />
           </div>
         ))}
