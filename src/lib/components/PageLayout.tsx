@@ -52,6 +52,7 @@ const Links = () => {
   const links = [
     { to: "/", label: "Home" },
     { to: "/testimonials", label: "Testimonials" },
+    { to: "/what-can-i-do", label: "What Can I Do?" },
   ];
 
   return (
