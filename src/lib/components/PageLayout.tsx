@@ -4,7 +4,7 @@ const PageLayout = () => {
   return (
     <>
       <NavBar />
-      <main className="mx-16 my-8 h-screen">
+      <main className="h-screen px-16 py-8">
         <Outlet />
       </main>
     </>
