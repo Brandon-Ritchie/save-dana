@@ -396,7 +396,7 @@ an investment in the future of Youngstown.`,
       "I’m at 2016 graduate of the Dana School of Music. Without the tutelage of professors at the Dana School of Music, I would’ve never began to actualize my potential as a composer, performer, scholar, and educator. Professors like Dave Morgan and Kent Engelhardt are invaluable to the university’s history as a phenomenal music school and artistic destination for future students. Its vibrant and diverse programs create an environment of musical opportunity and collaboration. Without the diversity in offerings, this culture will wither as quickly as a malnourished rose. When the Dana School of Music is reduced to financial figures it devalues the culture and history of the program and the musical impact of its faculty and graduates. This music school is a rose and should be nurtured. The concerning potential cuts to the music program uproot the culture, the school, and its impact on current and future students.",
     ],
     credentials: {
-      jobTitle: "Adjust Professor of Music",
+      jobTitle: "Adjunct Professor of Music",
       degree: "M.M. in Jazz Studies",
       year: "2016",
     },
