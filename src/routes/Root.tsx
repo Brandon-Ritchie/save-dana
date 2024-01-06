@@ -124,7 +124,7 @@ function Root() {
       <div className="flex flex-col items-center">
         <Card backgroundClass="bg-accent">
           <a href={Enrollment2}>
-            <img src={Enrollment2} alt="actual enrollment numbers from 2021" />
+            <img src={Enrollment2} alt="actual enrollment numbers from 2023" />
           </a>
         </Card>
       </div>
