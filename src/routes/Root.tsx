@@ -1,3 +1,8 @@
+import graduateEnrollment from "../assets/graduate-students-enrollment.png";
+import Enrollment1 from "../assets/2021-dana-enrollment.png";
+import Enrollment2 from "../assets/2023-dana-enrollment.png";
+import assessment from "../assets/assessment-of-undergraduate.jpeg";
+
 function Root() {
   const paragraphClassName = "my-4";
 
@@ -27,11 +32,10 @@ function Root() {
       </p>
 
       <div>
-        <span>PLACEHOLDER FOR GRADUATE ENROLLMENT IMAGE</span>
         <img
           className="mx-auto"
-          src="https://picsum.photos/1920/1080"
-          alt="TODO FIX THIS"
+          src={graduateEnrollment}
+          alt="A slide showing the number of enrollment per graduate degrees"
         />
       </div>
 
@@ -43,11 +47,10 @@ function Root() {
       </p>
 
       <div>
-        <span>PLACEHOLDER FOR PERFORMANCE ENROLLMENT IMAGE</span>
         <img
           className="mx-auto"
-          src="https://picsum.photos/1920/1080"
-          alt="TODO FIX THIS"
+          src={Enrollment1}
+          alt="actual enrollment numbers from 2021"
         />
       </div>
 
@@ -67,11 +70,10 @@ function Root() {
       </p>
 
       <div className="mb-3">
-        <span>PLACEHOLDER FOR PERFORMANCE ENROLLMENT IMAGE</span>
         <img
           className="mx-auto"
-          src="https://picsum.photos/1920/1080"
-          alt="TODO FIX THIS"
+          src={assessment}
+          alt="A slide showing data on the assessment of undergraduate programs"
         />
         <span className="text-sm">
           (The typographical error on the bottom right was corrected on the BoT
@@ -113,11 +115,10 @@ function Root() {
       </p>
 
       <div>
-        <span>PLACEHOLDER FOR NEXT IMAGE</span>
         <img
           className="mx-auto"
-          src="https://picsum.photos/1920/1080"
-          alt="TODO FIX THIS"
+          src={Enrollment2}
+          alt="actual enrollment numbers from 2021"
         />
       </div>
 
