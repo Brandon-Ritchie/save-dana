@@ -17,11 +17,12 @@ export default function Root() {
           <p>
             On Jan. 10, YSU Admin will present these cuts to a special meeting
             of the Academic Senate, as a contractual requirement to be able to
-            fire faculty in those areas.
+            fire faculty in those areas. By Jan. 31, an unknown number of Dana
+            faculty will have been fired without cause.
           </p>
           <p>
-            By Jan. 31, an unknown number of Dana faculty will have been fired
-            without cause.
+            The Dana School of Music will not be able to continue to exist with
+            these cuts.
           </p>
           <Link to="/war-on-music" className="btn btn-primary mt-8 text-white">
             Learn more
