@@ -421,4 +421,71 @@ an investment in the future of Youngstown.`,
     },
     imgSrc: emileeRogers,
   },
+  "bryan-kennard": {
+    name: "Bryan Kennard",
+    description: [
+      `Youngstown State University’s Dana School of Music is facing an existential crisis. I am
+      dismayed to hear that the YSU administration has apparently presented the Board of Trustees a
+      case for “sunsetting” more program offerings from across the university, which again includes
+      the slashing of degree programs in music (and potential retrenchment of faculty tied to those
+      programs). In 2021, the administration announced the “sunsetting” of programs in Music History
+      and Music Theory. In this go-around, it seems as if the chopping block may now include
+      undergraduate programs in Music Composition and Music Performance, as well as Dana’s entire
+      graduate program in music. The administration has scheduled a special session of YSU’s
+      Academic Senate to propose their cases for retrenchment on January 10.`,
+      `I attended Dana from 2006-2008 for my master’s degree in Flute Performance. After 10 years of
+      living outside of Ohio, I returned and was excited to begin teaching at Dana as adjunct faculty
+      from 2020-2022. As a Dana alumnus and contributor to its educational mission, I am
+      disappointed that the degree program I completed may not long exist, but I am hardly surprised.
+      It is almost cliché now to discuss the cutting of arts-related programs when institutions face
+      budget crises.`,
+      `In a time when so many colleges and universities are still dealing with lower enrollment
+      following the pandemic, and Northeast Ohio’s population continues to shrink, YSU’s plight is
+      not unique. Area institutions of higher learning are all experiencing belt-tightening. Lakeland
+      Community College cut 10% of its workforce, and Baldwin Wallace University’s budget woes
+      have been widely reported in recent months. At times like this, however, it is rarely the bloated
+      university administrations that take the largest hit to help lower university spending. It is most
+      often the program offerings and faculty that face cuts, layoffs, retirement buyouts, and
+      retrenchment. University music programs, which are inherently expensive to operate due to the
+      number of specialized faculty needed to provide students with a quality education, are easy
+      targets for cut-mongering administrations and boards.`,
+      `The Dana School of Music has a proud 150-year history in the Youngstown area (older than
+      YSU itself). It is a cultural fixture in an economically depressed region. While it has seen many
+      changes, challenges, and shrinking enrollment since its heyday in the 1970s and 1980s, Dana still
+      provides students and Youngstown audiences an important opportunity to engage in the arts and
+      music. While this may not, at first, be fully affected by the YSU administration’s proposals, it
+      will be initially hampered. Any sense of potential growth within the School of Music will surely
+      be stifled.`,
+      `Programs in Music Education and Music Recording, while currently safe from the
+      administration’s Sauron-like gaze, will certainly see the student experience cheapened if enough
+      faculty exit as a result of this current round of retrenchment. It is easy to imagine that students
+      looking for a college education in music will overlook YSU as an option if and when it can no
+      longer offer everything its competitors can, thus shrinking attendance at a more rapid rate.
+      Maybe the administration is aware of this and is actively engaged in overseeing Dana’s slow
+      death, or at the very least its crippling.`,
+      `As someone with degrees in Music Composition, Education, and Performance (not all from
+      Dana), and as someone who is actively involved in Northeast Ohio as a composer, performer,
+      music promoter, and arts administrator, I see the phasing-out of programs in the arts as
+      misguided and a great loss to the community. While it is certainly the partial responsibility of
+      Dana’s faculty and staff to promote its growth and reinvent itself when it begins dealing with
+      declines in enrollment, they cannot entirely address the underlying issues if the YSU
+      administration does not share or fully support the vision of the School of Music.`,
+      `Cutting programs is an easy way to deal with a university’s shrinking bottom line. Choosing to
+      support programs to promote the future of an institution is understandably tough, and I can’t
+      entirely understand all the challenges or agree with all the decisions the administration and Board
+      of Trustees make for YSU. I will argue that the arts are an important part of our culture, and the
+      number of Dana alumni engaged in all areas of the music industry who have graduated over the
+      decades is a testament to a legacy the past and present faculty of Dana School of Music have
+      built. A legacy that may see its end sooner than we think.`,
+      "Sincerely,",
+      "Bryan Kennard",
+      "Director, BOP STOP at The Music Settlement",
+      "Composer and Flutist",
+    ],
+    credentials: {
+      jobTitle: "Director, BOP STOP at The Music Settlement",
+      degree: "M.M. in Flute Performance",
+      year: "2008",
+    },
+  },
 };
