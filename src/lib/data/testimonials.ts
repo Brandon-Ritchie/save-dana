@@ -15,6 +15,7 @@ import brendanMcEvoy from "@/assets/testimonial-images/brendan-mcevoy.png";
 import michaelBarkett from "@/assets/testimonial-images/michael-barkett.jpeg";
 import ericFinkelstein from "@/assets/testimonial-images/eric-finkelstein.jpg";
 import billKirkwood from "@/assets/testimonial-images/bill-kirkwood.png";
+import ejDonkin from "@/assets/testimonial-images/ej-donkin.jpg";
 
 interface Testimonial {
   imgSrc?: string;
@@ -619,5 +620,33 @@ faculty, students, and the community at large.`,
       jobTitle: `Piano Technician, Dana School of Music`,
     },
     imgSrc: billKirkwood,
+  },
+  "ej-donkin": {
+    name: "EJ Donkin",
+    description: [
+      `My name is Emma Donkin, and I am a 2018 graduate of the music composition program at the Dana School of Music. I’m am currently gainfully employed full-time as a worship director for Portage Community Chapel (Ravenna, OH), and teach music theory as an adjunct at YSU. I also am a composer and gigging pianist with 2 jazz bands in the Northeast OH region, and have received international recognition for my compositions (2-time attendee of the International Trombone Festival, Alba Music Festvial in Italy, and more).`,
+      `My voice is just one of thousands imploring the administration to reconsider the retrenchment of faculty and cutting the performance and composition degrees offered by the Dana School of Music. I humbly ask the administration to consider the scope of this decision and implications for the future of music, arts, and community in the valley. I also ask you to consider the reach and influence the school has had not just upon this region, but on the nation as Dana’s graduates launch out into the world.`,
+      `If it is about calculating the number of viable careers Dana’s students have gone into, these numbers will look different than simply calculating which graduates are employed by a company. The vast diversity of careers that Dana’s graduates have gone on to have is staggering. To name a few recent (-20 years) graduates:`,
+      `Sean Jones: Chair of Jazz Studies at Peabody Conservatory, and well-renowned jazz composer and arranger`,
+      `Dr. Lauren (Eisenreich) Rudzinskas: Senior Lecturer, Trombone, at the University of Akron, General Manager at the International Women’s Brass Conference, and graduate of the Eastman School of Music`,
+      `Sam Blakeslee: NYC-Based jazz composer, band leader, and arranger, and lecturer at the Hartt School`,
+      `Sean Baran: Music Director and Organist at First Presbyterian Church of Pittsburgh, and Piano Instructor and Choral Accompanist at Lincoln Park Performing Arts Charter School`,
+      `This is not to mention all the educators, freelancers, recording engineers, and conductors who’ve built careers in Nashville, NYC, Cleveland, Seville, and many more vibrant, artistic cities. The Dana School of Music attracts people like these who have an awe-inspiring amount of tenacity, grit, and work ethic that I’ve found unique to the culture of Youngstown and the Dana community. This grit also attracts self-starters, academically-minded people, and innovators, which in turn creates very unique career paths for these people. Many of the graduates are self-employed, gigging musicians, composers, arrangers, songwriters, freelancers, and wildly creative artists who stitch together a beautiful career based on their projects, gigs, and interests. I would argue that these pathways are just as valid, financially viable, and valuable as a salaried job with a company that is easy to track on an Excel sheet. Many of these disciplined artists own a home, have a family, and make a sustainable living using their skill set, just as any other degree-bearing person would in any other field. Again, I believe it is that innovative grit and tenacity that Dana attracts and cultivates that creates a strong outflow of artists from the school.`,
+      `Without the programs that are potentially going to be cut, YSU fails to attract musicians with these qualities. Thereafter, Dana fails, Bliss Hall becomes silent, and the community suffers an obvious void in the music sector of its culture. Faculty will leave the area, students will enroll elsewhere, and many talented musicians will take their talents to other areas, leaving Youngstown and YSU scrambling to recreate the local, budding artistic sphere, while surrounding cities like Akron, Canton, and Cleveland are already well on their way to blooming.  Without these programs training and cultivating the next generation of local musicians, the implications for the theatre community, youth orchestra, churches, schools, and Youngstown symphony orchestra are devastating.`,
+      `I chose Dana because the late Dr. Stephen Gage challenged me and asked me if I was ready to work hard. That challenge is a call to the cultivate the absolute best in the students that desire a career in music, and I’ve been hard pressed to find another institution in this area that nurtures that ethic that is not also a classical conservatory. I’m sure Dr. Gage would be horrified to see the arts in the valley take this hit, after his (and many others) decades of fierce support and service to the school. To have a school in this area that produces not only educators for the schools in the valley, but also such a broad spectrum of musicians who are spread throughout the country, is a massive boon to the culture and spirit of the Mahoning valley. To have the blessing taken away deals a painful blow to the community that will sting for decades to come.`,
+      `As a composer and musician with  international premieres, awards, commissions, and a person with a fulfilling life and livelihood that all began at (and would not be possible without) The Dana School of Music and the many accomplished, wonderful faculty there (Dave Morgan, Caroline Oltmanns, Kent Engelhardtt, Steven Reale, Jena Root, Dave Kana, Randall Goldberg, Stephen Gage, Hae-Jong Lee, and many more): please re-consider this decision. Thank you for your time.`,
+      `Sincerely,`,
+      `EJ Donkin`,
+      `Composer, Arranger`,
+      `Worship Arts Director`,
+      `Pianist at Danjo Jazz Orchestra`,
+      `Pianist at the NEO Jazz Orchestra`,
+    ],
+    credentials: {
+      jobTitle: `Worship Arts Director, Composer, Arranger, Pianist`,
+      degree: "B.M. in Music Composition",
+      year: "2018",
+    },
+    imgSrc: ejDonkin,
   },
 };
