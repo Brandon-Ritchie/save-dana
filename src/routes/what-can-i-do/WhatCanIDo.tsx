@@ -114,7 +114,7 @@ export default function WhatCanIDo() {
         <h3>Send an email to individual members of the Board of Trustees</h3>
         <p>
           Click on any of the links below to open your email client with that
-          individual email in the "To:" field:
+          individual's email in the "To:" field:
         </p>
         <ul className={ulClassName}>
           {boardOfTrustees.map((person) => (
