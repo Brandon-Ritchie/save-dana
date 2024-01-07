@@ -6,7 +6,7 @@ export default function Root() {
   return (
     <>
       <h1>Save the Dana School of Music</h1>
-      <section className="mx-auto my-8 flex flex-col-reverse justify-center lg:flex-row">
+      <section className="mx-auto my-8 lg:w-3/4">
         <Card>
           <h2>What is happening?</h2>
           <p>
@@ -28,23 +28,25 @@ export default function Root() {
             Learn more
           </Link>
         </Card>
-        <img src={cancelled} alt="Cancelled" className="lg:ml-8 lg:w-1/2" />
       </section>
-      <section className="mx-auto my-8">
-        <h2>What Can I Do To Help?</h2>
-        <p>
-          <Link to="/what-can-i-do" className="underline">
-            Click here
-          </Link>{" "}
-          to learn about the many ways you can help save the Dana School of
-          Music.
-        </p>
-        <p className="mt-2">
-          <Link to="/testimonials" className="underline">
-            Click here
-          </Link>{" "}
-          to read testimonials from Dana School of Music alumni.
-        </p>
+      <section className="mx-auto my-8 flex flex-col-reverse justify-center lg:flex-row">
+        <div>
+          <h2>What Can I Do To Help?</h2>
+          <p>
+            <Link to="/what-can-i-do" className="underline">
+              Click here
+            </Link>{" "}
+            to learn about the many ways you can help save the Dana School of
+            Music.
+          </p>
+          <p className="mt-2">
+            <Link to="/testimonials" className="underline">
+              Click here
+            </Link>{" "}
+            to read testimonials from Dana School of Music alumni.
+          </p>
+        </div>
+        <img src={cancelled} alt="Cancelled" className="lg:ml-8 lg:w-1/2" />
       </section>
     </>
   );
