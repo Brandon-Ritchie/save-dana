@@ -21,34 +21,36 @@ export default () => {
 
   return (
     <div className="mt-4 gap-20 lg:grid lg:grid-cols-3">
-      <aside className="flex w-full justify-center lg:col-span-1">
-        <Card>
-          {testimonial.imgSrc && (
-            <img
-              className="mx-auto w-96"
-              src={testimonial.imgSrc}
-              alt={testimonial.name}
-            />
-          )}
+      <aside className="lg:col-span-1">
+        <div className="flex w-full justify-center">
+          <Card>
+            {testimonial.imgSrc && (
+              <img
+                className="mx-auto w-96"
+                src={testimonial.imgSrc}
+                alt={testimonial.name}
+              />
+            )}
 
-          <h1 className="text-4xl">{testimonial.name}</h1>
+            <h1 className="text-4xl">{testimonial.name}</h1>
 
-          {testimonial.credentials && (
-            <>
-              {testimonial.credentials.jobTitle && (
-                <p className="text-2xl">{testimonial.credentials.jobTitle}</p>
-              )}
-              {testimonial.credentials.degree && (
-                <p className="text-xl">{testimonial.credentials.degree}</p>
-              )}
-              {testimonial.credentials.year && (
-                <p className="text-xl">
-                  Class of {testimonial.credentials.year}
-                </p>
-              )}
-            </>
-          )}
-        </Card>
+            {testimonial.credentials && (
+              <>
+                {testimonial.credentials.jobTitle && (
+                  <p className="text-2xl">{testimonial.credentials.jobTitle}</p>
+                )}
+                {testimonial.credentials.degree && (
+                  <p className="text-xl">{testimonial.credentials.degree}</p>
+                )}
+                {testimonial.credentials.year && (
+                  <p className="text-xl">
+                    Class of {testimonial.credentials.year}
+                  </p>
+                )}
+              </>
+            )}
+          </Card>
+        </div>
       </aside>
       <section className="my-4 flex flex-col justify-center lg:col-span-2">
         {testimonial.description.map((paragraph, index) => (
