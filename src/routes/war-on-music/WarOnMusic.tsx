@@ -1,6 +1,6 @@
 import graduateEnrollment from "../../assets/graduate-students-enrollment.png";
-import Enrollment1 from "../../assets/2021-dana-enrollment.png";
-import Enrollment2 from "../../assets/2023-dana-enrollment.png";
+import Enrollment2021 from "../../assets/2021-dana-enrollment.png";
+import Enrollment2023 from "../../assets/2023-dana-enrollment.png";
 import assessment from "../../assets/assessment-of-undergraduate.jpeg";
 import Card from "@/lib/components/Card";
 import { useLayoutEffect } from "react";
@@ -47,8 +47,8 @@ export default () => {
       </p>
 
       <ImageSection
-        src={Enrollment1}
-        alt="actual enrollment numbers from 2021"
+        src={Enrollment2023}
+        alt="actual enrollment numbers from 2023"
       />
 
       <p className={paragraphClassName}>
@@ -107,7 +107,7 @@ export default () => {
       </p>
 
       <ImageSection
-        src={Enrollment2}
+        src={Enrollment2021}
         alt="actual enrollment numbers from 2023"
       />
 
