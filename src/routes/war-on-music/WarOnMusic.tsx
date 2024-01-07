@@ -83,8 +83,8 @@ export default () => {
         the slide above received a 1% score in “Employment Demand.” When
         questioned in detail about this by Dana faculty at a meeting in 2021,
         Gray Associates’ representative admitted that its numbers were based on
-        its findings from general job-search sites, and without having examining
-        the highly specific sites (usually protected by a paywall) used by most
+        its findings from general job-search sites, and without examining the
+        highly specific sites (usually protected by a paywall) used by most
         employers in hiring musicians for orchestras, bands, and other salaried
         positions. This Employment Demand number also does not take into account
         the freelance work which makes up nearly all of the paid opportunities
