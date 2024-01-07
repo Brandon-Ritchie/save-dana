@@ -44,6 +44,6 @@ export default function Card({
 
 const CardImage = ({ src, alt }: { src: string; alt: string }) => (
   <figure className="max-h-64 max-w-full lg:max-h-full lg:max-w-xs">
-    <img className="h-full object-cover" src={src} alt={alt} />
+    <img className="h-full w-full object-cover" src={src} alt={alt} />
   </figure>
 );
