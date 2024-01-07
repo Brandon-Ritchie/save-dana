@@ -61,6 +61,14 @@ export default function WhatCanIDo() {
         </p>
       </section>
       <section>
+        <h2>Join The Protest</h2>
+        <p>
+          At 4pm on Wednesday, January 10, join a peaceful—and very very
+          loud—protest outside YSU's Tod Hall. Bring #savedana and #lovemusic
+          signs, and make your voice (and music) be heard!
+        </p>
+      </section>
+      <section>
         <h2>Spread The Word!</h2>
         <p>
           Do you know any alumni? Particularly <strong>donors</strong> to YSU?
