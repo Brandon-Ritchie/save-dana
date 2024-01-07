@@ -21,7 +21,7 @@ export default () => {
 
   return (
     <div className="mt-4 gap-20 lg:grid lg:grid-cols-3">
-      <aside className="lg:col-span-1">
+      <aside className="flex w-full justify-center lg:col-span-1">
         <Card>
           {testimonial.imgSrc && (
             <img
