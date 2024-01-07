@@ -1,11 +1,12 @@
 import Card from "@/lib/components/Card";
 import { Link } from "react-router-dom";
+import cancelled from "@/assets/cancelled.jpg";
 
 export default function Root() {
   return (
     <>
       <h1>Save the Dana School of Music</h1>
-      <section className="mx-auto my-8 flex justify-center lg:w-3/4">
+      <section className="mx-auto my-8 flex flex-col-reverse justify-center lg:flex-row">
         <Card>
           <h2>What is happening?</h2>
           <p>
@@ -26,8 +27,9 @@ export default function Root() {
             Learn more
           </Link>
         </Card>
+        <img src={cancelled} alt="Cancelled" className="lg:ml-8 lg:w-1/2" />
       </section>
-      <section className="mx-auto my-8 lg:w-3/4">
+      <section className="mx-auto my-8">
         <h2>What Can I Do To Help?</h2>
         <p>
           <Link to="/what-can-i-do" className="underline">
