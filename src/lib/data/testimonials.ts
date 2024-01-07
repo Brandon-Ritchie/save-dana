@@ -600,7 +600,7 @@ faculty, students, and the community at large.`,
     ],
     credentials: {
       jobTitle: `Musician, “Fort Sam’s Own” 323d Army Band`,
-      degree: "B.M. in Music Performance",
+      degree: "B.M. in Music Education",
       year: "2018",
     },
     imgSrc: ericFinkelstein,
