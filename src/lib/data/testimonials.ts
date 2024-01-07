@@ -365,7 +365,7 @@ an investment in the future of Youngstown.`,
     credentials: {
       jobTitle: "Freelance Musician",
       degree: "B.A. in Music",
-      year: "2015",
+      year: "2018",
     },
     imgSrc: herbieHunkele,
   },
