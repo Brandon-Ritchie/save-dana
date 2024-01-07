@@ -1,6 +1,4 @@
 import { Link, Outlet } from "react-router-dom";
-import danaSchoolOfMusic from "@/assets/dana-school-of-music.jpeg";
-import blissHall from "@/assets/bliss-hall.jpeg";
 import { Analytics } from "@vercel/analytics/react";
 
 const PageLayout = () => {
@@ -11,7 +9,6 @@ const PageLayout = () => {
       <main className="flex-1 px-8 pb-4 lg:px-16">
         <Outlet />
       </main>
-      <Footer />
     </div>
   );
 };
@@ -75,18 +72,5 @@ const Links = () => {
     </>
   );
 };
-
-const Footer = () => (
-  <div className="flex w-full flex-col lg:flex-row">
-    <div
-      style={{ backgroundImage: `url(${danaSchoolOfMusic})` }}
-      className="h-20 w-full bg-cover bg-center lg:h-20 lg:w-1/2"
-    ></div>
-    <div
-      style={{ backgroundImage: `url(${blissHall})` }}
-      className="h-20 w-full bg-cover bg-center lg:h-20 lg:w-1/2"
-    ></div>
-  </div>
-);
 
 export default PageLayout;
