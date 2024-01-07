@@ -14,6 +14,7 @@ import stephenPhilipHarvey from "@/assets/testimonial-images/stephen-philip-harv
 import brendanMcEvoy from "@/assets/testimonial-images/brendan-mcevoy.png";
 import michaelBarkett from "@/assets/testimonial-images/michael-barkett.jpeg";
 import ericFinkelstein from "@/assets/testimonial-images/eric-finkelstein.jpg";
+import billKirkwood from "@/assets/testimonial-images/bill-kirkwood.png";
 
 interface Testimonial {
   imgSrc?: string;
@@ -586,7 +587,6 @@ faculty, students, and the community at large.`,
     },
     imgSrc: michaelBarkett,
   },
-
   "eric-finkelstein": {
     name: "Eric Finkelstein",
     description: [
@@ -603,5 +603,21 @@ faculty, students, and the community at large.`,
       year: "2018",
     },
     imgSrc: ericFinkelstein,
+  },
+  "bill-kirkwood": {
+    name: "Bill Kirkwood",
+    description: [
+      `I have been the piano technician for the Dana School of Music for 20 years from 2004 until now. In this 20 years I have watched thousands of students come through Bliss Hall. I’ve heard them as they spend hours in the practice rooms honing their craft, and as they perform together in various ensembles. What many people do not realize is the incredible discipline it takes to become a good musician. Music is not just a course, or a curriculum, or a degree.  The study of music affects not just a person’s career but their whole way of life.`,
+      `Music forms individuals into better people who learn not just for themselves, but who learn so they can collaborate and perform with other musicians. Plus they perform with others so that still others in the audience can derive enjoyment and fulfilment through their craft. This makes musicians major contributors to any culture or society. Musicians who play or sing in our churches serve an even bigger purpose as they help people to worship God, the very Creator of music.`,
+      `I’ve also watched as many faculty members have come through these halls, some for much longer than I have been here. I’ve watched them teach and interact with their students. I daresay their passion for teaching music and love for their students is unmatched in any other college curriculum. These instructors are not just here to collect a check. They are here to make a difference in the lives of their students, to instill the discipline required to excel, to treat others with respect, and encourage others in their craft.`,
+      `The Dana School of Music is (and has been) one of the most influential music schools in Northeast Ohio for over 150 years. I urge the YSU administrators to consider the impact Dana has had on the culture of our surrounding area and allow it to continue turning out the next generation of musicians.`,
+      `Respectfully,`,
+      `Bill Kirkwood`,
+      `Piano Technician, Dana School of Music`,
+    ],
+    credentials: {
+      jobTitle: `Piano Technician, Dana School of Music`,
+    },
+    imgSrc: billKirkwood,
   },
 };
