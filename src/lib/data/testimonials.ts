@@ -18,6 +18,7 @@ import billKirkwood from "@/assets/testimonial-images/bill-kirkwood.png";
 import ejDonkin from "@/assets/testimonial-images/ej-donkin.jpg";
 import laurieSampsel from "@/assets/testimonial-images/laurie-sampsel.webp";
 import jadenKarr from "@/assets/testimonial-images/jaden-karr.jpg";
+import carrieAnnRoddewigGary from "@/assets/testimonial-images/carrie-ann-roddewig-gary.png";
 
 interface Testimonial {
   imgSrc?: string;
@@ -676,5 +677,20 @@ faculty, students, and the community at large.`,
       jobTitle: "Director of Music, Our Lady of The Lakes Parish",
     },
     imgSrc: jadenKarr,
+  },
+  "carrie-ann-roddewig-gary": {
+    name: "Carrie Ann Roddewig Gary",
+    description: [
+      `This is devastating news. I LOVE my Dana education. The education and opportunities afforded me there as an undergrad were beyond compare (and don't get me started about the memories and friendships made). Such great choral and opera experiences, top-notch theory and history professors, mentoring opportunities to help local high schools, community events like the Carols and Cocoa, Board Head Festival and Opera Guild events.....Dana is a Youngstown Cultural Institution.`,
+      `Even my high school education as a student at Lakeview was influenced by the opportunities presented by the Dana School....District Chamber Choir Festival....Madrigalfest...voice lessons with Doc Raridon.... the experience to hear amazing musicians perform in operas and concerts and know that's what I wanted to do....they gave a struggling (lazy) high school student direction and purpose.....`,
+      `Without the education and experiences I garnered there, I can guarantee I would not be where I am today......professional performer, church music director and in my 23rd year of public high school choral education...passing on to new generations the knowledge, work ethic, and love of music that was instilled in me at YSU`,
+      `Craig Raymaley, Jim Piccirilli and I loved Dana so much we created the Dana Vocal Performance Clinic, a recruitment tool and opportunity for high school students to have the Dana experience before getting there! I hope this can be turned around!!`,
+    ],
+    credentials: {
+      jobTitle: "Choral Director",
+      degree: "B.M. in Music Education",
+      year: "1999",
+    },
+    imgSrc: carrieAnnRoddewigGary,
   },
 };
