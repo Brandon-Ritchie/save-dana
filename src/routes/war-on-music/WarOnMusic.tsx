@@ -161,9 +161,11 @@ const ImageSection = ({
   caption?: string;
 }) => (
   <div className="flex flex-col items-center">
-    <Card backgroundClass="bg-accent" compact={window.innerWidth < 1024}>
-      <img src={src} alt={alt} />
-    </Card>
+    <div className="max-w-5xl">
+      <Card backgroundClass="bg-accent" compact={window.innerWidth < 1024}>
+        <img src={src} alt={alt} />
+      </Card>
+    </div>
     {caption && <span className="w-3/4 text-sm">{caption}</span>}
   </div>
 );
