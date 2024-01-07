@@ -40,7 +40,7 @@ export default function Root() {
           <Link to="/testimonials" className="underline">
             Click here
           </Link>{" "}
-          to read testimonials from Dana School of Music alumni and supporters.
+          to read testimonials from Dana School of Music alumni.
         </p>
       </section>
     </>
