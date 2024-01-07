@@ -16,6 +16,8 @@ import michaelBarkett from "@/assets/testimonial-images/michael-barkett.jpeg";
 import ericFinkelstein from "@/assets/testimonial-images/eric-finkelstein.jpg";
 import billKirkwood from "@/assets/testimonial-images/bill-kirkwood.png";
 import ejDonkin from "@/assets/testimonial-images/ej-donkin.jpg";
+import laurieSampsel from "@/assets/testimonial-images/laurie-sampsel.webp";
+import jadenKarr from "@/assets/testimonial-images/jaden-karr.jpg";
 
 interface Testimonial {
   imgSrc?: string;
@@ -648,5 +650,31 @@ faculty, students, and the community at large.`,
       year: "2018",
     },
     imgSrc: ejDonkin,
+  },
+  "laurie-sampsel": {
+    name: "Laurie Sampsel",
+    description: [
+      "I attended the Dana School of Music in the 1980s. I graduated with a bachelor’s degree in music education (1986) and a master’s in flute performance (1988). Without this school and its faculty I would not have pursued a career as a music librarian and musicologist. I was a first generation student from Ohio. The opportunities I enjoyed from this school made all the difference for me. I went on to get a second master’s in library science at Kent State University and a PhD in musicology from the University of Pittsburgh. Today I am a full professor in musicology at the University of Colorado Boulder.",
+    ],
+    credentials: {
+      jobTitle: "Professor of Musicology",
+      degree: "B.M. in Music Education, M.M. in Flute Performance",
+      year: "1986 and 1988",
+    },
+    imgSrc: laurieSampsel,
+  },
+  "jaden-karr": {
+    name: "Jaden Karr",
+    description: [
+      `As soon as I graduated high school I knew that I wanted to do something with a career in music. I enrolled at YSU for a degree in Music Education. While I did not finish my degree due to personal circumstances, I learned so much from my professors there about music theory, vocal performance and piano performance, as well as how to be a better musician and teacher, but many of them have unfortunately left YSU due to retirement or a better opportunity.`,
+      `Youngstown State University has a great school of music- if YSU allows these programs to be cut, many things at YSU Will also be impacted. This includes the marching and pep bands, the free “music at noon” events offered at the Butler Art Museum almost every week during the school year, and will also create a ripple effect of lack of music throughout the Mahoning and Shenango Valleys. Many YSU students perform in area churches, give lessons to school-aged students, and do so much more for this area. I truly hope that the YSU administration continues to maintain the tradition of excellence that Dana has had for so many years.`,
+      `Respectfully,`,
+      `Jaden Karr`,
+      `Director of Music, Our Lady of The Lakes Parish`,
+    ],
+    credentials: {
+      jobTitle: "Director of Music, Our Lady of The Lakes Parish",
+    },
+    imgSrc: jadenKarr,
   },
 };
