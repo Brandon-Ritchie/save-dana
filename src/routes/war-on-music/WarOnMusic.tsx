@@ -166,6 +166,6 @@ const ImageSection = ({
         <img src={src} alt={alt} />
       </Card>
     </div>
-    {caption && <span className="w-3/4 text-sm">{caption}</span>}
+    {caption && <span className="text-sm lg:w-3/5">{caption}</span>}
   </div>
 );
