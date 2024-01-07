@@ -68,7 +68,24 @@ export default function WhatCanIDo() {
         </p>
       </section>
       <section>
+        <h2>Send a Testimonial</h2>
+        <p>Are you an alumnus of the Dana School of Music?</p>
+        <p>
+          <a
+            className="underline"
+            href="mailto:save.the.dana.school.of.music@gmail.com"
+          >
+            Send us a testimonial
+          </a>{" "}
+          about how the Dana School of Music impacted your life!
+        </p>
+      </section>
+      <section>
         <h2>Write To The Administration</h2>
+        <p>
+          Click on any of the links below to open your email client with that
+          individual's email in the "To:" field:
+        </p>
         <ul className={ulClassName}>
           {administration.map((person) => (
             <li key={person.email}>
@@ -81,6 +98,24 @@ export default function WhatCanIDo() {
       </section>
       <section>
         <h2>Write To The Board of Trustees</h2>
+        <h3>Send an email to the entire Board of Trustees</h3>
+        <p>
+          <a
+            className="underline"
+            href={`mailto:${boardOfTrustees
+              .map((trust) => trust.email)
+              .join(",")}`}
+          >
+            Click Here
+          </a>{" "}
+          to open your email client with all of the Board of Trustees' emails in
+          the "To:" field.
+        </p>
+        <h3>Send an email to individual members of the Board of Trustees</h3>
+        <p>
+          Click on any of the links below to open your email client with that
+          individual email in the "To:" field:
+        </p>
         <ul className={ulClassName}>
           {boardOfTrustees.map((person) => (
             <li key={person.email}>
