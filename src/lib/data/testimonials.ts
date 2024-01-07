@@ -11,6 +11,7 @@ import jasonVolovar from "@/assets/testimonial-images/jason-volovar.jpg";
 import francescaMolinaroHeath from "@/assets/testimonial-images/francesca-molinaro-heath.jpg";
 import herbieHunkele from "@/assets/testimonial-images/herbie-hunkele.jpeg";
 import stephenPhilipHarvey from "@/assets/testimonial-images/stephen-philip-harvey.jpeg";
+import brendanMcEvoy from "@/assets/testimonial-images/brendan-mcevoy.png";
 
 interface Testimonial {
   imgSrc?: string;
@@ -34,6 +35,8 @@ export const testimonials: { [p: string]: Testimonial } = {
     imgSrc: anthonyTaddeo,
     credentials: {
       jobTitle: "Alla Boara",
+      degree: "M.M. in Jazz Composition",
+      year: "2020",
     },
   },
   "jason-volovar": {
@@ -132,61 +135,12 @@ export const testimonials: { [p: string]: Testimonial } = {
   "jordan-grantonic": {
     name: "Jordan Grantonic",
     description: [
-      `My name is Jordan Grantonic, I was born in Youngstown, OH and I am a 2019 graduate of
-      YSU’s Dana School of Music with my B.M. in violin performance. When I started at YSU, I was
-      an English major with a full athletic scholarship for track and cross country and only decided to
-      take an audition at Dana so I could continue to take lessons and play in the orchestra and a
-      music minor. Shortly after the start of my first semester, I suffered a series of running-related
-      injuries that effectively took me out of competition and training for much of my first two years at
-      YSU. With a lot of new free time in my schedule, I started spending most of it in the practice
-      rooms at Bliss Hall, rediscovering my love and passion for music alongside some of the most
-      caring, talented, and dedicated teachers I have ever met. My sophomore year, I decided to
-      leave athletics and changed my major to music performance and never once looked back.`,
-      `I was a late bloomer compared to most other violinists at the collegiate level, and would have
-      surely been left behind had I chosen to attend any university other than YSU. At other, larger
-      schools, a student with my abilities as a freshman would have been placed in the lowest level
-      orchestra (if allowed in any ensembles at all), and would have been relegated to half hour
-      lessons with graduate students. Dr. Joseph Kromholz, Dr. Stephen Gage, Dr. Kivie
-      Cahn-Lipman, Mr. Michael Strauss, Dr. Cecilia Yudha, Dr. Jena Root, Dr. Randall Goldberg, Dr.
-      Dave Morgan, Dr. Kent Engelhardt, Dr. Ewelina Boczkowska, Dr. John Umble, and Dr. Steven
-      Reale are just a few of the professors at the Dana School of Music who recognized my potential
-      and refused to let me fall through the cracks.`,
-      `
-      This past spring, I graduated from the University of Colorado Boulder with my masters degree in
-      violin performance and am currently pursuing an Artist Diploma, also at CU Boulder. In addition
-      to regularly performing with several professional ensembles in Colorado and actively taking
-      auditions for others, I am a Teaching Artist with El Sistema Colorado, an after-school music
-      program for historically marginalized youth ages 5-18 that provides instruments, chamber and
-      orchestra ensemble opportunities, and private lessons completely free of charge. I also teach
-      outreach string sectionals in local public schools and teach private lessons and coach chamber
-      groups through the Parlando School for Musical Arts, and teach private violin and viola lessons
-      to students in underserved communities in Denver through Musical Mentors Collaborative.
-      Additionally, I freelance around the Denver/Boulder area and perform in private event gigs for
-      several contractors throughout the year, as well as contract many of my own.`,
-      `The analytics firm used by the university to determine its programs’ “marketability” solely drew
-      information from free online job boards such as Indeed and Glassdoor. Not a single one of the
-      positions I currently hold or have held in the past, nor auditions I have taken, were ever posted
-      on sites like these. We find employment through orchestra audition announcements, arts
-      administration job websites, other independent job boards that are often behind paywalls, and
-      word of mouth/recommendations. This still does not account for the wide variety of freelance
-      work many musicians regularly engage in, or for any independently founded organizations. The
-      data used to prove the College of Music’s so-called lack of marketability clearly did not consider
-      a single one of these possibilities in their research and,
-      judging by the way this study was conducted, it is clear (and concerning) that YSU knows
-      nothing about the inner workings of the music industry and is wholly unfit to make any decisions
-      regarding Dana’s ability to prepare its students for it.`,
-      `The Dana School of Music has been one of the most important cultural institutions in Mahoning
-      County for over 150 years and has been the catalyst for nearly all musical activity in
-      Youngstown since its inception. Take a look at any arts organization in Youngstown and you will
-      find that a majority of its musicians, performers, audio engineers and administration received
-      their education from the Dana School of Music at YSU and decided to stick around to continue
-      to use their talents to help the city flourish. In destroying the school of music, you consequently
-      destroy nearly all musical activity in Mahoning Valley. While I no longer reside in Youngstown, it
-      will always be my home and seeing the Dana School of Music be dismantled so callously and
-      without cause is more heartbreaking than I can express through words. Without the faculty and
-      programs at Dana, there is no way I or thousands of others like myself would be where we are
-      today, doing what we love and inspiring the next generation to do the same.
-      `,
+      "My name is Jordan Grantonic, I was born in Youngstown, OH and I am a 2019 graduate of YSU’s Dana School of Music with my B.M. in violin performance. When I started at YSU, I was an English major with a full athletic scholarship for track and cross country and only decided to take an audition at Dana so I could continue to take lessons and play in the orchestra as a music minor. Shortly after the start of my first semester, I suffered a series of running-related injuries that effectively took me out of competition and training for much of my first two years at YSU. With a lot of new free time in my schedule, I started spending most of it in the practice rooms at Bliss Hall, rediscovering my love and passion for music alongside some of the most caring, talented, and dedicated teachers I have ever met. My sophomore year, I decided to leave athletics and changed my major to music performance and never once looked back.",
+      "I was a late bloomer compared to most other violinists at the collegiate level, and would have surely been left behind had I chosen to attend any university other than YSU. At other, larger schools, a student with my abilities as a freshman would have been placed in the lowest level orchestra (if allowed in any ensembles at all), and would have been relegated to half hour lessons with graduate students. Dr. Joseph Kromholz, Dr. Stephen Gage, Dr. Kivie Cahn-Lipman, Mr. Michael Strauss, Dr. Cecilia Yudha, Dr. Jena Root, Dr. Randall Goldberg, Dr. Dave Morgan, Dr. Kent Engelhardt, Dr. Ewelina Boczkowska, Dr. John Umble, and Dr. Steven Reale are just a few of the professors at the Dana School of Music who recognized my potential and refused to let me fall through the cracks.",
+      "This past spring, I graduated from the University of Colorado Boulder with my masters degree in violin performance and am currently pursuing an Artist Diploma, also at CU Boulder. In addition to regularly performing with several professional ensembles in Colorado and actively taking auditions for others, I am a Teaching Artist with El Sistema Colorado, an after-school music program for historically marginalized youth ages 5-18 that provides instruments, chamber and orchestra ensemble opportunities, and private lessons completely free of charge. I also teach outreach string sectionals in local public schools and teach private lessons and coach chamber groups through the Parlando School for Musical Arts, and teach private violin and viola lessons to students in underserved communities in Denver through Musical Mentors Collaborative. Additionally, I freelance around the Denver/Boulder area and perform in private event gigs for several contractors throughout the year, as well as contract many of my own.",
+      "The analytics firm used by the university to determine its programs’ “marketability” solely drew information from free online job boards such as Indeed and Glassdoor. Not a single one of the positions I currently hold or have held in the past, nor auditions I have taken, were ever posted on sites like these. We find employment through orchestra audition announcements, arts administration job websites, other independent job boards that are often behind paywalls, and word of mouth/recommendations. This still does not account for the wide variety of freelance work many musicians regularly engage in, or for any independently founded organizations. The data used to prove the College of Music’s so-called lack of marketability clearly did not consider a single one of these possibilities in their research and,",
+      "judging by the way this study was conducted, it is clear (and concerning) that YSU knows nothing about the inner workings of the music industry and is wholly unfit to make any decisions regarding Dana’s ability to prepare its students for it.",
+      "The Dana School of Music has been one of the most important cultural institutions in Mahoning County for over 150 years and has been the catalyst for nearly all musical activity in Youngstown since its inception. Take a look at any arts organization in Youngstown and you will find that a majority of its musicians, performers, audio engineers and administration received their education from the Dana School of Music at YSU and decided to stick around to continue to use their talents to help the city flourish. In destroying the school of music, you consequently destroy nearly all musical activity in Mahoning Valley. While I no longer reside in Youngstown, it will always be my home and seeing the Dana School of Music be dismantled so callously and without cause is more heartbreaking than I can express through words. Without the faculty and programs at Dana, there is no way I or thousands of others like myself would be where we are today, doing what we love and inspiring the next generation to do the same.",
     ],
     credentials: {
       jobTitle: "Teaching Artist",
@@ -200,6 +154,11 @@ export const testimonials: { [p: string]: Testimonial } = {
     description: [
       "I would not be where I am today without the education I received from the Dana School of Music. I attended Youngstown State University from 2016-2018 and graduated with a Master of Music in Vocal Performance. My education from YSU has awarded me many successes such as a Young Artist with Pittsburgh Festival Opera, a Young Artist with Opera Western Reserve, an Adjunct Voice Lecturer at Frostburg State University, an Elementary Music Teacher, an Assistant Middle School Choir Director, and a soprano finalist with the US Army Chorus. I urge you to please reconsider discontinuing any undergraduate and graduate music programs as well as discharging any members of the music faculty. I have friends and colleagues from Dana who have went on to perform with the Youngstown Symphony Orchestra and Opera Western Reserve as professional artists. The musical performances at YSU serve as music education, culture, and appreciation for the arts in the community. Taking these degrees away will dramatically affect the high level of these performances. Again, I urge you to please reconsider these decisions for the sake of Youngstown and the surrounding communities.",
     ],
+    credentials: {
+      jobTitle: "Adjunct Voice Lecturer at Frostburg State University",
+      degree: "M.M. in Vocal Performance",
+      year: "2018",
+    },
     imgSrc: francescaMolinaroHeath,
   },
   "jared-peters": {
@@ -304,6 +263,10 @@ thinking more ambitiously.`,
       "The leadership of YSU know the value of the arts in a community, particularly in education, where it has a long-proven effect of raising test scores and academic success in all fields. College level music develops student confidence, critical thinking, problem solving, collaboration, and the ability to remain effective under pressure. I have attended four university music schools in four different states, earning degrees from three of them. I have seen this university and community advantage play out in every one of them. I have consistently seen this in the high school students I work with who participate seriously in music. They take on hard work eagerly, hopeful about their futures and their higher education in many fields, not solely music. Obviously, this value and advantage of music education does not exist spontaneously. Where it succeeds it is intentionally supported and funded.",
       "The professional musicians I have associated with in my life, very much including my professors at YSU, are some of the most hard working, generous, and civic minded people I have encountered. Their strength and skill have shaped my life for the better. The loss of their presence would be palpable to any community. Please do not allow YSU to weaken its academics and community by forcing incredible teachers, community members, current students, and potential students to relocate. They will surely find another community outside of Youngstown to engage with and contribute to. But I hope they will have solid reasons to stay at YSU. I would like to continue saying that I am proud to be a YSU Dana School of Music alum, and to continue to promote the program to future students.",
     ],
+    credentials: {
+      degree: "M.M. in Violin Performance",
+      year: "2018",
+    },
     imgSrc: brittanyBaglia,
   },
   "sean-baran": {
@@ -398,6 +361,11 @@ an investment in the future of Youngstown.`,
       "The lessons that I have learned from The Dana School of Music has shaped the quality of musician and person that I have become. They also have given me a competitive advantage to being a musician in the real world. From Dr. Krummel teaching me to think critically about everything that I play, to Dr. Engelhardt teaching me how to write and play with style, and to Dr. Gage instilling his passion for music not only into me but everybody else who walked through the band room doors. My education there has led to my successful career. I have had the opportunity to work with Grammy award winning musicians, travel the continent, and get my personal music heard across the globe.",
       "This next level education that I have received is part of a tradition of excellence that is 155 years in the making. Losing that will be a devastating blow to YSU, the greater Youngstown community, as well as a musical community that stretches across the globe.",
     ],
+    credentials: {
+      jobTitle: "Freelance Musician",
+      degree: "B.A. in Music",
+      year: "2015",
+    },
     imgSrc: herbieHunkele,
   },
   "stephen-philip-harvey": {
@@ -499,5 +467,109 @@ an investment in the future of Youngstown.`,
       year: "2008",
     },
     imgSrc: bryanKennard,
+  },
+  "brendan-mcevoy": {
+    name: "Brendan McEvoy",
+    description: [
+      `I graduated from Youngstown State in 2022. Over the course of my degree in Music
+Composition, I honed my skills in writing music, performing on multiple instruments,
+academic research and writing, and pedagogy of violin and music theory (to name a
+few). With this background, I was able to gain acceptance into several prestigious
+graduate programs, and am on track to complete a Master’s degree in music theory with
+plans to continue my education further and teach at the university level. My research
+has been accepted to conferences, I’ve been given opportunities to help develop
+curriculum, and I have taught several classes at the undergraduate level. The skills I
+learned while at the Dana School of Music undoubtedly prepared me well for my
+academic, musical, and professional success. However, this growth and development
+didn’t just magically happen in the isolation of the practice rooms in Bliss Hall.`,
+      `From colleagues and fellow students to professors and TAs, a music school creates a
+community that fosters creative, academic, and personal growth that lasts far beyond
+one’s time at an institution. The most important part of the music school experience
+(and truthfully, any university experience) is the people. Even before I enrolled as a
+student at YSU, I performed under the baton of Stephen Gage while in the Youngstown
+Symphony Youth Orchestra, and he encouraged me to further my education at the
+Dana School of Music. While I was there, I had so many professors, including Dr. Gage,
+who guided and inspired me in my development as a composer, as an educator, as a
+performer, and as an academic: Dave Morgan, Wendy Case, Jena Root, Joseph
+Kromholz, Michael Strauss, Caroline Oltmanns, Steven Reale, Kivie Cahn-Lipman,
+Caitlin Hedge, James Vasconi, Ewelina Boczkowska, Jessica Chisholm, among others.
+The list is long, and I include it to highlight the extensive network of people that come
+together within an academic institution to enable students’ growth and learning in the
+singularly unique way that only a music school can. Every one of these faculty members
+contributed to the success I’ve been fortunate to have, both while at YSU and after.
+Very few places outside of a university allow growing musicians to, in such a short time,
+work with people who possess a simply staggering amount of talent and experience. A
+knowledgeable, successful, and supportive faculty is the greatest asset that a university
+has to offer its students. Despite this, it seems like the administration of Youngstown
+State has consistently ignored its faculty.`,
+      `As a university, the primary focus of leadership should be to support a mission of
+education. Despite this, YSU has repeatedly prioritized non-educational efforts in its
+administrative decisions, its spending, and its policies. I understand that sometimes
+difficult decisions must be made in the interest of keeping an institution running.
+However, when these decisions actively increase the salaries of an ever-growing coterie
+of administrators and athletic directors, and attempt to terminate employee contracts
+against union bargaining agreements, it makes clear that education is no longer the
+priority of those running what is supposed to be an educational institution. As someone
+who is pursuing a career in higher education, I find this entire situation to be extremely
+concerning. The university should be a place where the pursuit of knowledge and study
+is held to the highest standard, not plunged below a bottom line. When the faculty of a
+university are treated with this level of contempt and disregard, it not only negatively
+impacts how the faculty view their teaching and research, but it signals to the students
+(and alumni) that they, and their education, are not the priority. It shows that student
+tuition and alumni donations are not being directed towards the professors that invest so
+much of their time and personal resources into the academic and emotional success of
+their students. Instead, they’re being funneled into administrative initiatives that see little
+(if any) widespread impact amongst the general student population, and serve primarily
+as busy-bodying trend-following in order to virtue signal to prospective students, who
+are viewed as little more than clientele to lure in the door. My time as a representative in
+the YSU Academic Senate has shown me that not only are student perspectives not
+often listened to or actively sought out within many administrative conversations, but the
+views of faculty are also ignored or not even sought out in critical policy discussions.
+Decisions made by the Senate or by collective Union bargaining are consistently left
+unheeded or outright flaunted for the sake of the unknown, confidential aims of the
+Board. The fact that all of this is happening in Youngstown, a city made famous by its
+history of worker’s rights, is outrageously ironic, and shows an astonishing contempt not
+only for the faculty and staff of the university, but for the history and legacy of the
+community out of which the University grew.`,
+      `In addition to being a vital part of the university community, the Dana School of Music is
+a historical institution within the Mahoning Valley. The Dana School has been a vibrant
+cultural touchstone for over 150 years, upholding a high standard of musical education
+and concert performances for the Warren and Youngstown communities. Eliminating
+music degrees would not only deprive the Valley of a thriving annual array of concerts,
+plays, musicals, guest artist residencies, and other performances, but would cause the
+University to lose academic programs that have furnished the high schools of Trumbull
+and Mahoning Counties (and beyond) with fantastic music teachers for decades, jump-
+started the success of Grammy-winning performers, and encouraged the careers of
+future pedagogues and researchers (including myself). Few other schools can boast
+such a storied history with a continuing record of alumni success.`,
+      `I believe a hallmark of the Dana School of Music experience is the unique educational
+blend of faculty engagement and a broad array of experiential learning opportunities,
+and the devaluation of faculty at Youngstown State not only detracts from the School of
+Music, but the university as a whole. If the Board of Trustees moves towards defunding
+the School of Music, they will be digging themselves a deeper hole in their long-running
+trend of degrading the educational standing of YSU at the expense of their students,
+employees, and constituents. Cutting funding to Dana is not only an insult to the
+devoted faculty who spend countless hours teaching, preparing, caring for and nurturing
+the success and development of their students, it is equivalent to cutting off a cultural
+limb of Northeast Ohio’s history. The guitarist Charlie Byrd once said, “Music's not like
+becoming a doctor, who can walk into a community and find people who need him.”
+Musicians are not always immediately recognized for the value they bring to a
+community, but every community needs musicians, just like every community needs
+doctors, artists, engineers, athletes, historians, writers, nurses, and scientists. A
+university is a training ground for all of these people, providing an essential service to
+the community. The Board of Trustees must recognize the role that Youngstown State
+has in the Mahoning Valley as a center for education, the arts, the sciences, athletics,
+and history. The Dana School of Music has been instrumental in providing this essential
+service to Youngstown, to Ohio, and beyond during its 150+ years of existence.
+Defunding it, especially in such a time of social and emotional turmoil, is a disservice to
+faculty, students, and the community at large.`,
+    ],
+    credentials: {
+      jobTitle:
+        "Graduate Teaching Assistant at Michignan State University, College of Music",
+      degree: "B.M. Music Composition, minor in English Studies",
+      year: "2022",
+    },
+    imgSrc: brendanMcEvoy,
   },
 };
