@@ -12,6 +12,7 @@ import francescaMolinaroHeath from "@/assets/testimonial-images/francesca-molina
 import herbieHunkele from "@/assets/testimonial-images/herbie-hunkele.jpeg";
 import stephenPhilipHarvey from "@/assets/testimonial-images/stephen-philip-harvey.jpeg";
 import brendanMcEvoy from "@/assets/testimonial-images/brendan-mcevoy.png";
+import michaelBarkett from "@/assets/testimonial-images/michael-barkett.jpeg";
 
 interface Testimonial {
   imgSrc?: string;
@@ -571,5 +572,17 @@ faculty, students, and the community at large.`,
       year: "2022",
     },
     imgSrc: brendanMcEvoy,
+  },
+  "michael-barkett": {
+    name: "Michael Barkett",
+    description: [
+      `The Dana School of Music equipped me with the tools to enjoy a diverse and exciting musical career. Since graduating in 2017, I have had the privilege of performing with numerous professional ensembles including the Detroit Symphony Orchestra, been a semi-finalist in solo competitions, co-founded a group with multiple albums on Spotify, and won a job U.S. Navy Fleet Bands. Since joining the Navy in 2021, I’ve had the privilege of performing in over fifteen countries for millions of people. Without the quality education I received from the instructors at the Dana School of Music, I would not have had so many incredible experiences in such a short time. Being able to study multiple styles of music including jazz, pop, and classical music was a critical piece of my education that gave me the skills to stand out amongst my peers and competitors in the job market. I also had the opportunity to learn from graduate students who came to the university with their own experiences which further enriched my educational environment. With the university taking aim at the program and looking to strip the music school of these critical attributes, they are effectively crippling the music faculty’s ability to provide the quality education that has stood the test of time since the Dana School of Music’s conception in 1869.`,
+    ],
+    credentials: {
+      jobTitle: "Musician, U.S. Navy Fleet Bands",
+      degree: "B.M. in Trumpet Performance",
+      year: "2017",
+    },
+    imgSrc: michaelBarkett,
   },
 };
