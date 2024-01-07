@@ -29,7 +29,7 @@ export default function Card({
         <h2 className="card-title">{title}</h2>
         <p className="line-clamp-3">{description[0]}</p>
         <div className="card-actions justify-end">
-          <Link className="btn btn-primary" to={buttonLink}>
+          <Link className="btn btn-primary text-white" to={buttonLink}>
             {buttonText}
           </Link>
         </div>
