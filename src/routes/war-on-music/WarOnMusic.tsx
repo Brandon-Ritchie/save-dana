@@ -164,8 +164,8 @@ const ImageSection = ({
     <div className="max-w-5xl">
       <Card backgroundClass="bg-accent" compact={window.innerWidth < 1024}>
         <img src={src} alt={alt} />
+        {caption && <span className="mt-2 text-sm text-white">{caption}</span>}
       </Card>
     </div>
-    {caption && <span className="mt-2 text-sm lg:w-1/2">{caption}</span>}
   </div>
 );
