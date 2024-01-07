@@ -13,6 +13,7 @@ import herbieHunkele from "@/assets/testimonial-images/herbie-hunkele.jpeg";
 import stephenPhilipHarvey from "@/assets/testimonial-images/stephen-philip-harvey.jpeg";
 import brendanMcEvoy from "@/assets/testimonial-images/brendan-mcevoy.png";
 import michaelBarkett from "@/assets/testimonial-images/michael-barkett.jpeg";
+import ericFinkelstein from "@/assets/testimonial-images/eric-finkelstein.jpg";
 
 interface Testimonial {
   imgSrc?: string;
@@ -584,5 +585,23 @@ faculty, students, and the community at large.`,
       year: "2017",
     },
     imgSrc: michaelBarkett,
+  },
+
+  "eric-finkelstein": {
+    name: "Eric Finkelstein",
+    description: [
+      "My name is Eric Finkelstein, and I graduated from the Dana School of Music in 2018. Throughout my time at Dana, I had the greatest privilege of studying with some of the most experienced and knowledgeable professors in the country. This includes but isn’t limited to: David Morgan, Stephen Gage, Kent Englehardt, Joseph Kromholz, Theron Brown, etc. I had countless performance opportunities that shaped me as a young musician. To say that my experience at Dana was great would be an understatement. Because of my musical preparation from Dana, I went on to perform professionally post-grad. Notably, I played at two amusement parks: Carowinds and Cedar Point, and I played on one cruise ship: Pride of America. As of right now, I’ve been a musician in the Army for almost three years, and I’ve chosen to make this my career. I know that I’m just one of a million success stories to come out of Dana; the administration needs to give a second thought before making cuts.",
+      "Very Respectfully,",
+      "Eric D. Finkelstein",
+      "SGT, USA",
+      "HR NCO",
+      `“Fort Sam’s Own” 323d Army Band`,
+    ],
+    credentials: {
+      jobTitle: `Musician, “Fort Sam’s Own” 323d Army Band`,
+      degree: "B.M. in Music Performance",
+      year: "2018",
+    },
+    imgSrc: ericFinkelstein,
   },
 };
