@@ -1,10 +1,16 @@
-import anthonyTaddeo from "../../assets/testiomial-images/anthony-taddeo.jpg";
-import jaredPeters from "../../assets/testiomial-images/jared-peters.jpg";
-import brittanyBaglia from "../../assets/testiomial-images/brittany-baglia.jpg";
-import jamesVasconi from "../../assets/testiomial-images/james-vasconi.jpeg";
-import stephenWest from "../../assets/testiomial-images/stephen-west.jpeg";
-import seanBaran from "../../assets/testiomial-images/sean-baran.jpg";
-import emileeRogers from "../../assets/testiomial-images/emilee-rogers.jpeg";
+import anthonyTaddeo from "@/assets/testimonial-images/anthony-taddeo.jpg";
+import jaredPeters from "@/assets/testimonial-images/jared-peters.jpg";
+import brittanyBaglia from "@/assets/testimonial-images/brittany-baglia.jpg";
+import jamesVasconi from "@/assets/testimonial-images/james-vasconi.jpeg";
+import stephenWest from "@/assets/testimonial-images/stephen-west.jpeg";
+import seanBaran from "@/assets/testimonial-images/sean-baran.jpg";
+import emileeRogers from "@/assets/testimonial-images/emilee-rogers.jpeg";
+import bryanKennard from "@/assets/testimonial-images/bryan-kennard.png";
+import jordanGrantonic from "@/assets/testimonial-images/jordan-grantonic.png";
+import jasonVolovar from "@/assets/testimonial-images/jason-volovar.jpg";
+import francescaMolinaroHeath from "@/assets/testimonial-images/francesca-molinaro-heath.jpg";
+import herbieHunkele from "@/assets/testimonial-images/herbie-hunkele.jpeg";
+import stephenPhilipHarvey from "@/assets/testimonial-images/stephen-philip-harvey.jpeg";
 
 interface Testimonial {
   imgSrc?: string;
@@ -121,6 +127,7 @@ export const testimonials: { [p: string]: Testimonial } = {
       degree: "Bachelor’s and Master’s in Piano Performance",
       year: "2016 and 2018",
     },
+    imgSrc: jasonVolovar,
   },
   "jordan-grantonic": {
     name: "Jordan Grantonic",
@@ -186,12 +193,14 @@ export const testimonials: { [p: string]: Testimonial } = {
       degree: "B.M. in violin performance",
       year: "2019",
     },
+    imgSrc: jordanGrantonic,
   },
   "francesca-molinaro-heath": {
     name: "Francesca (Molinaro) Heath",
     description: [
       "I would not be where I am today without the education I received from the Dana School of Music. I attended Youngstown State University from 2016-2018 and graduated with a Master of Music in Vocal Performance. My education from YSU has awarded me many successes such as a Young Artist with Pittsburgh Festival Opera, a Young Artist with Opera Western Reserve, an Adjunct Voice Lecturer at Frostburg State University, an Elementary Music Teacher, an Assistant Middle School Choir Director, and a soprano finalist with the US Army Chorus. I urge you to please reconsider discontinuing any undergraduate and graduate music programs as well as discharging any members of the music faculty. I have friends and colleagues from Dana who have went on to perform with the Youngstown Symphony Orchestra and Opera Western Reserve as professional artists. The musical performances at YSU serve as music education, culture, and appreciation for the arts in the community. Taking these degrees away will dramatically affect the high level of these performances. Again, I urge you to please reconsider these decisions for the sake of Youngstown and the surrounding communities.",
     ],
+    imgSrc: francescaMolinaroHeath,
   },
   "jared-peters": {
     name: "Jared Peters",
@@ -389,6 +398,7 @@ an investment in the future of Youngstown.`,
       "The lessons that I have learned from The Dana School of Music has shaped the quality of musician and person that I have become. They also have given me a competitive advantage to being a musician in the real world. From Dr. Krummel teaching me to think critically about everything that I play, to Dr. Engelhardt teaching me how to write and play with style, and to Dr. Gage instilling his passion for music not only into me but everybody else who walked through the band room doors. My education there has led to my successful career. I have had the opportunity to work with Grammy award winning musicians, travel the continent, and get my personal music heard across the globe.",
       "This next level education that I have received is part of a tradition of excellence that is 155 years in the making. Losing that will be a devastating blow to YSU, the greater Youngstown community, as well as a musical community that stretches across the globe.",
     ],
+    imgSrc: herbieHunkele,
   },
   "stephen-philip-harvey": {
     name: "Stephen Philip Harvey",
@@ -400,6 +410,7 @@ an investment in the future of Youngstown.`,
       degree: "M.M. in Jazz Studies",
       year: "2016",
     },
+    imgSrc: stephenPhilipHarvey,
   },
   "emilee-rogers": {
     name: "Emilee Rogers",
@@ -487,5 +498,6 @@ an investment in the future of Youngstown.`,
       degree: "M.M. in Flute Performance",
       year: "2008",
     },
+    imgSrc: bryanKennard,
   },
 };
