@@ -24,7 +24,11 @@ export default function Root() {
             The Dana School of Music will not be able to continue to exist with
             these cuts.
           </p>
-          <Link to="/war-on-music" className="btn btn-primary mt-8 text-white">
+          <p>
+            <strong>New Update - January 7th, 2023, 7:00pm EST</strong>
+          </p>
+
+          <Link to="/war-on-music" className="btn btn-primary text-white">
             Learn more
           </Link>
         </Card>
