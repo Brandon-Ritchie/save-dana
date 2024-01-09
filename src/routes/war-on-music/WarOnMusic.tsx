@@ -41,9 +41,13 @@ export default () => {
         </ul>
 
         <Quote>
-          Statement addressing misinformation about YSU’s Dana School of Music
-          Youngstown State University's Dana School of Music is NOT closing,
-          contrary to social media posts.
+          <p>
+            Statement addressing misinformation about YSU’s Dana School of Music
+          </p>
+          <p>
+            Youngstown State University's Dana School of Music is NOT closing,
+            contrary to social media posts.
+          </p>
         </Quote>
 
         <Paragraph>
