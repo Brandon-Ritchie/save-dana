@@ -1,4 +1,4 @@
-import Card from "@/lib/components/TestimonialCard";
+import TestimonialCard from "@/lib/components/TestimonialCard";
 import { testimonials } from "@/lib/data/testimonials";
 import { useLayoutEffect } from "react";
 
@@ -30,7 +30,7 @@ export default () => {
       <section>
         {Object.keys(testimonials).map((key, index) => (
           <div className="my-4">
-            <Card
+            <TestimonialCard
               key={key}
               imgConfig={
                 testimonials[key].imgSrc

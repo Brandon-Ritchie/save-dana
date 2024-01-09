@@ -22,6 +22,8 @@ import carrieAnnRoddewigGary from "@/assets/testimonial-images/carrie-ann-roddew
 import ianKinnaman from "@/assets/testimonial-images/ian-kinnaman.jpg";
 import trumanLittler from "@/assets/testimonial-images/truman-littler.jpg";
 import andrewMorro from "@/assets/testimonial-images/andrew-morro.jpg";
+import georgeWallaceMiklas from "@/assets/testimonial-images/george-wallace-miklas.png";
+import amandaBeagleBossio from "@/assets/testimonial-images/amanda-beagle-bossio.jpg";
 
 interface Testimonial {
   imgSrc?: string;
@@ -746,5 +748,58 @@ faculty, students, and the community at large.`,
       year: "2020",
     },
     imgSrc: andrewMorro,
+  },
+  "george-wallace-miklas": {
+    name: "Dr. George Wallace Miklas",
+    description: [
+      `I am an alumnus of the Dana School of Music (DSM). I understand that the Youngstown State University (YSU) Board Of Trustees (BOT) is systematically dismantling and destroying the 150-year-old Dana School of Music, also known as Dana’s Musical Institute, founded in 1869 in Warren, Ohio.`,
+      `As a young high school musician, I was focused on practicing multiple musical instruments, studying music theory, and singing. Consequently, I had no time left to study for my academic core classes that are used to measure and predict a person’s success in higher education. Based on standardized test scores, my HS guidance counselor denied my application for early admission to YSU. However, my HS principal, who better understood my musical aptitude, approved the application. YSU granted me early admission to study at the DSM during my senior year of high school.`,
+      `My undergraduate studies at the DSM emphasized tuba performance, wind symphony, symphony orchestra, and music education; it also allowed me to study composition, orchestration, arranging, performing jazz, and singing in an opera.`,
+      `I gained many learning experiences through the nurturing and mentorship of my music professors at the DSM. I understood that I was not alone in my struggle between the arts and academics and that my life's success depended on my perseverance and dedication to the music I love.  After many years of domestic and international performances, my life has come full circle. I have earned a Master Teacher degree, Master of Arts degree, and Doctor of Music Education degree. I am a music instructor at the University of Lynchburg in Virginia, where I nurture and mentor my students with genuine empathy.`,
+      `The Every Student Succeeds Act (P.L. 114-95) does not legally impact higher education. Still, it does provide a very important message regarding educating the whole person: “Music educators have celebrated the law for its specification of music as part of a “well-rounded education.”[1] The YSU BOT needs to consider its role as a regional, accessible, and inclusive institution of higher education, operating fundamentally upon taxpayer dollars provided by state and federal governments’ budgets. As an institution of higher learning serving a diverse region and a diverse cross-section of the population, rich in musical heritage and having graduated many generations of professional performing musicians and music teachers, the YSU BOT must be stopped from unveiling its plan, which will inevitably destroy the DSM by removing one cornerstone at a time, until the entire institution is rubble.`,
+      `Therefore, I implore the YSU BOT to consider its mission statement and how destroying the DSM is tantamount to destroying curiosity, lifelong learning, student futures, and the region:`,
+      `“As a student-centered university, Youngstown State University’s mission is to provide innovative lifelong learning opportunities that will inspire individuals, enhance futures and enrich lives. YSU inspires individuals by cultivating a curiosity for life-long learning; enhances the futures of our students by empowering them to discover, disseminate and apply their knowledge; and enriches the region by fostering collaboration and the advancement of civic, scientific, and technological development. YSU’s culture of enrichment flourishes in our diverse, accessible, and quality education."[2]`,
+      `Consider the YSU Vision statement and how the board of trustees is destroying the “cornerstone of collaboration” that is found in music and at the DSM:`,
+      `“Youngstown State University is where students thrive in their educational and career pursuits, where scholarship creates innovative solutions, and where community engagement is a cornerstone of collaboration that collectively contribute to the sustainable prosperity of the region and beyond.”[3]`,
+      `Lastly, consider the YSU values statements and how the board of trustees is destroying individual students’ strengths, holistic and lifelong success, and without mutual respect and inclusion, to the detriment of the university community and culture, and region:`,
+      `“We—the faculty, staff, administrators, and students of Youngstown State University—hold the following values essential to achieving the mission and realizing the vision.`,
+      `Centrality of Students – We put students first, fostering their holistic and lifelong success.`,
+      `Excellence and Innovation – We bring academic excellence and innovation to learning and life for all stakeholders.`,
+      `Integrity and Human Dignity – We root all behaviors, decisions and actions in the achievement of integrity, mutual respect, collegiality, equity and inclusion.`,
+      `Collaboration and Public Engagement – We embrace collaboration and create innovative partnerships to foster sustainability and enrich our university, our culture, and region.”[4]`,
+      `Respectfully submitted,`,
+      `Dr. George Wallace Miklas`,
+      `BM in Ed, 1991, Dana School of Music`,
+      " ",
+      " ",
+      `[1] Alice-Ann Darrow. “The Every Student Succeeds Act (ESSA): What It Means for Students With Disabilities and Music Educators.” General Music Today 30, no. 1 (October 2016): 41–44. https://doi.org/10.1177/1048371316658327.`,
+      `[2] YSU. “Youngstown State University Mission Statement,” December 16, 2016. https://ysu.edu/mission.`,
+      `[3] Ibid.`,
+      `[4] Ibid.`,
+    ],
+    credentials: {
+      jobTitle:
+        "Music Instructor, University of Lynchburg and Harmonica Gallery Sales, Repair & Studio ",
+      degree: "B.M. in Music Education",
+      year: "1991",
+    },
+    imgSrc: georgeWallaceMiklas,
+  },
+  "amanda-beagle-bossio": {
+    name: "Amanda Beagle Bossio",
+    description: [
+      `The Dana School of Music has been a point of pride for our community for decades and has ensured the vital existence of arts education throughout our region. Countless students have enjoyed elite music education in their schools and have had access to community arts experiences and private instruction all thanks to leading educators, performers and teaching artists who have walked the halls of Dana. The ripple affect the dismantling and potential closing of the Dana School of Music would be felt in multiple areas of our community, would affect the economy of our region and diminish the cultural offerings that make Youngstown a unique and special place to live as an artist, a music educator and patron of our thriving arts organizations.`,
+      `A 2003 graduate, I myself was afforded a wonderful foundation earning my Bachelors in Vocal Performance from the Dana School of Music. As a student at Dana, I studied opera abroad and performed leading roles at the undergraduate level, an opportunity not often extended at other universities. This university celebrated and supported me as Miss Ohio 2004 and my run for Miss America 2005.`,
+      `Upon graduating, I went on to experience a wealth of opportunities from earning a Masters in Entertainment Business, performing professionally in Actors Equity music theatre productions, operetta at Lincoln Center in NYC, cruise ship showrooms on luxury cruise liners as well as being featured with area symphonies, working as a church chorister and soloist and producing my own recordings and musical events that have allowed me to have a unique and fulfilling career as working singer.`,
+      `Additionally, YSU welcomed me as an adjunct member of the Musical Theatre faculty when I returned to the area in 2019. This experience provided another avenue of growth to combine my professional experience and continued elite private study with experts in my field to work as a college voice instructor. My focus now is a thriving private voice studio serving 40+ clients of varying ages from our local area as well as other cities, states and countries thanks to Zoom. Unfortunately, grooming students to attend the Dana School of Music seems less and less a viable option for the talented young singers I work with in my private studio.`,
+      `The economic impact of a thriving arts community is vital to the success of any city. I can only imagine the talent drain this will have on our Youngstown Symphony, choruses, and churches let alone the access to quality music education in our region. The decision to make cuts is a short sighted solution if the argument is that the Dana School of Music is not currently profitable. The answer lies in community engagement, building relationships with local schools and community arts organizations that can help the institution become the emblem of the community it once was. This approach of making cuts to help with profitability will only continue to extend to other departments resulting in a shell of a university that no longer serves the needs of those seeking higher education, regardless of their field.`,
+      `It breaks my heart to think this is where our beloved university’s priorities lie, dishonoring the memory of so many distinguished members of our community who built this institution over 150+ years with their resources, talents, outreach and vision. To build something takes great forethought and an altruistic spirit that values the greater good of one’s community. I implore the current administration to rise to the occasion and set the standard for preserving music education in a world that is often so quick to cut the arts rather than find a way to foster them. There is always a way.`,
+    ],
+    credentials: {
+      jobTitle: "Private Voice Instructor",
+      degree: "B.M. in Vocal Performance",
+      year: "2003",
+    },
+    imgSrc: amandaBeagleBossio,
   },
 };
