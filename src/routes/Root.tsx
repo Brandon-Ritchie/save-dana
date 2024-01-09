@@ -15,6 +15,11 @@ export default function Root() {
             Composition, and the complete graduate program.
           </p>
           <p>
+            On January 7, following an uproar from the community, YSU altered
+            its plans, announcing that it would instead cut programs in Music
+            Composition and Jazz Studies, as well as the BA in Music.
+          </p>
+          <p>
             On Jan. 10, YSU Admin will present these cuts to a special meeting
             of the Academic Senate, as a contractual requirement to be able to
             fire faculty in those areas. By Jan. 31, an unknown number of Dana
@@ -24,10 +29,6 @@ export default function Root() {
             The Dana School of Music will not be able to continue to exist with
             these cuts.
           </p>
-          <p>
-            <strong>New Update - January 7th, 2023, 7:00pm EST</strong>
-          </p>
-
           <Link to="/war-on-music" className="btn btn-primary text-white">
             Learn more
           </Link>
