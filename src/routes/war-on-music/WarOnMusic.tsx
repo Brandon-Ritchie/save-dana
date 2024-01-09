@@ -4,7 +4,6 @@ import Enrollment2023 from "../../assets/2023-dana-enrollment.png";
 import assessment from "../../assets/assessment-of-undergraduate.jpeg";
 import Card from "@/lib/components/Card";
 import { useLayoutEffect } from "react";
-import "./war-on-music.css";
 
 export default () => {
   useLayoutEffect(() => {
@@ -19,7 +18,7 @@ export default () => {
 
       <h2>Update - January 7th, 2023, 7:00pm EST</h2>
 
-      <p>
+      <p className="my-4">
         This morning, January 7, Chet Cooper, Chair of YSU’s Academic Senate,
         sent out a message to all Senators to distribute to their
         constituencies: “As a reminder, there will be a special meeting of the
@@ -29,12 +28,12 @@ export default () => {
         potential programmatic changes. … [T]he following programs/majors are
         impacted: ... Music Composition … and Music Performance.”
       </p>
-      <p>
+      <p className="my-4">
         YSU’s intention to shut down those two majors in particular—as of this
         morning!—is consistent with the Associate Provost’s slide below, the
         Business Journal article below, and many internal conversations.
       </p>
-      <p>
+      <p className="my-4">
         This evening, January 7, the University released a statement “addressing
         misinformation” ... “in response to social media posts,” that it was not
         closing down the BM Music Performance or the complete Graduate program,
@@ -44,7 +43,7 @@ export default () => {
         serve students and improve the marketability of graduates.”
       </p>
 
-      <p>What does all this tell us?</p>
+      <p className="my-4">What does all this tell us?</p>
 
       <ol className="mx-4">
         <li>1) We are being gaslighted, and</li>
@@ -57,7 +56,7 @@ export default () => {
         </li>
       </ol>
 
-      <p>
+      <p className="my-4">
         Keep the pressure on the YSU Board and Administration. They should not
         be shuttering <strong>any</strong> music programs at Dana. Empty-suit
         administrators should not be reorganizing a School of Music to fit{" "}
@@ -70,7 +69,7 @@ export default () => {
 
       <h2>Initial Story</h2>
 
-      <p>
+      <p className="my-4">
         On December 6, 2023, YSU Associate Provost Jennifer Pintar gave a
         presentation to the Board of Trustees on her “Academic Master Plan,”
         which could be considered the latest salvo in the Administration’s War
@@ -84,14 +83,14 @@ export default () => {
         on this presentation the following day.
       </p>
 
-      <p>
+      <p className="my-4">
         Some of Pintar’s data was verifiably and blatantly false. For example,
         here was her slide regarding Graduate student enrollment at YSU:
       </p>
 
       <ImageSection src={graduateEnrollment} alt="graduate enrollment" />
 
-      <p>
+      <p className="my-4">
         She claimed that there were “less than 5” Graduate students enrolled in
         a Graduate degree in Music Performance at Dana. The administration’s own
         enrollment figures (below) show that at that time there were 21 Graduate
@@ -103,7 +102,7 @@ export default () => {
         alt="actual enrollment numbers from 2023"
       />
 
-      <p>
+      <p className="my-4">
         Pintar also subdivided Dana’s Graduate programs by major (i.e., with
         separate line items for Music Performance, Music Theory and Composition,
         and Music Education), whereas she combined majors in most other Graduate
@@ -112,7 +111,7 @@ export default () => {
         left, and not “in the red” on the far right.
       </p>
 
-      <p>
+      <p className="my-4">
         Much of Pintar’s “data” on Dana’s undergraduate programs was imaginary.
         Here is a slide she presented to the Board of Trustees regarding two of
         Dana’s undergraduate programs:
@@ -128,7 +127,7 @@ export default () => {
           incompetence, rather than malicious intent.)"
       />
 
-      <p>
+      <p className="my-4">
         While the Administration claims that these analyses are data-driven, its
         hired analytics firm (Gray Associates) was spectacularly ill-equipped to
         scrutinize a music program. To give one example, Music Performance in
@@ -146,7 +145,7 @@ export default () => {
         taken based on this flawed data.
       </p>
 
-      <p>
+      <p className="my-4">
         YSU shows years of decreased enrollment due to regional and national
         demographics, but enrollment at the Dana School of Music is rising!
         Compare the Fall 2021 enrollment report (below)—taken from when Dana
@@ -163,7 +162,7 @@ export default () => {
         alt="actual enrollment numbers from 2023"
       />
 
-      <p>
+      <p className="my-4">
         YSU’s War on Music began several years ago, after Dana’s undergraduate
         degree programs in Music History and Music Theory were shut down. The
         Administration promptly “retrenched” (fired) faculty specialists in
@@ -181,7 +180,7 @@ export default () => {
         restored the jobs to those faculty members.
       </p>
 
-      <p>
+      <p className="my-4">
         Administration now plans to cut further positions from Dana, retrenching
         some number of additional professors. On January 10, the Administration
         will give a presentation to a special meeting of YSU’s Academic Senate.
