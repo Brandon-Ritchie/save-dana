@@ -19,6 +19,9 @@ import ejDonkin from "@/assets/testimonial-images/ej-donkin.jpg";
 import laurieSampsel from "@/assets/testimonial-images/laurie-sampsel.webp";
 import jadenKarr from "@/assets/testimonial-images/jaden-karr.jpg";
 import carrieAnnRoddewigGary from "@/assets/testimonial-images/carrie-ann-roddewig-gary.png";
+import ianKinnaman from "@/assets/testimonial-images/ian-kinnaman.jpg";
+import trumanLittler from "@/assets/testimonial-images/truman-littler.jpg";
+import andrewMorro from "@/assets/testimonial-images/andrew-morro.jpg";
 
 interface Testimonial {
   imgSrc?: string;
@@ -692,5 +695,56 @@ faculty, students, and the community at large.`,
       year: "1999",
     },
     imgSrc: carrieAnnRoddewigGary,
+  },
+  "ian-kinnaman": {
+    name: "Ian Kinnaman",
+    description: [
+      `The education, experience, and mentorship I received at the Dana School of Music are directly responsible for the success of my career as a teacher and musician. I chose to attend YSU to study with Dr. Dave Morgan, professor of bass and composition. The school's environment encouraged a multifaceted approach to learning - taking classes in education, composition, multiple instruments, and all areas of performance. This provided me with the adaptability to succeed as a freelance musician.`,
+      `Though I was a music education major, my education was exponentially enriched by the composition, performance, and graduate programs. The most successful project I have been a part of, Alla Boara, only happened because the graduate program brought Anthony Taddeo to the school. The connection I made with him has allowed me to play with the region's best musicians and add my voice to the arts and culture of Ohio. The value of the Dana School of Music cannot be measured. Gutting this program is a short-sighted solution to an issue facing universities across the country and doing so would be the end of a cultural institution that has bettered our community for the last 150 years. Gutting this program will permanently diminish the quality of the school, the college, the university, and the culture of NE Ohio.`,
+      `Ian Kinnaman`,
+      `Adjunct Instructor at the College of Wooster`,
+      `B.M. in Music Education`,
+      `Class of 2020`,
+    ],
+    credentials: {
+      jobTitle: "Adjunct Instructor at the College of Wooster",
+      degree: "B.M. in Music Education",
+      year: "2020",
+    },
+    imgSrc: ianKinnaman,
+  },
+  "truman-littler": {
+    name: "Truman Littler",
+    description: [
+      `My name is Truman Littler. I am a native of Oil City, Pennsylvania and am a 2022 Bachelor of Music Education graduate of Youngstown State University. I am proud to be the Middle School Choir Director at the Elida Local School District in Lima, Ohio and am a member of the Lima Symphony Orchestra Chorus, Lima Beane Barbershop Chorus, and the Trinity United Methodist Chancel Choir of Lima. The Dana School of Music is well known as a very successful school for instrumental music majors, but I studied vocal music, opera and was given the opportunity to privately study conducting, and piano at Dana. Some of the amazing professors who mentored and taught me include, Dr. Allan Mosher, Dr. Hae-Jong Lee, Dr. Jena Root, Dr. Daniel Keown, Dr. Misook Yun, Dr. Caroline Oltmanns and Dr. J. Paul Louth. The care and effort of these professors ensured my success in the program. The opportunities afforded to me at Dana allowed me to to serve as Assistant Director of the Stambaugh Chorus for three years, direct the Choir at Ohltown United Methodist Church in Mineral Ridge, be a Staff Singer at Christ Episcopal of Warren and be a singing Scholar for the Warren Civic Chorus. The diverse population of musicians with whom I had the opportunity to collaborate with at Dana has developed me into a well rounded musician and Teacher. When I went to student teach at Hickory High School in Hermitage, Pennsylvania, the fact that I attended the Dana School of Music was a respected fact to the music faculty at the school, and helped me secure my student teaching spot.`,
+      `Truman F. Littler`,
+      `Bachelor of Music in Music Education 2022`,
+      `Employed as Middle School Choir Director at Elida Local School District (Lima, Ohio)`,
+    ],
+    credentials: {
+      jobTitle: "Middle School Choir Director, Elida Local School District",
+      degree: "B.M. in Music Education",
+      year: "2022",
+    },
+    imgSrc: trumanLittler,
+  },
+  "andrew-morro": {
+    name: "Andrew Morro",
+    description: [
+      `I do not believe that the thoughts and perspectives that I have on art could have been built anywhere other than in the halls of Bliss. The community and faculty at Dana School of Music were unendingly supportive with my pursuit of music and the learning of art. I started school in 2016 and immediately found myself in a place where I could explore music in anyway that I wanted. I pursued avenues against the grain and instead of resistance (sans some administrative hurdles), I was met with support to find ways that I could make music outside of the conservatory box and I thoroughly believe that opportunity should be available to anyone.`,
+
+      `I learned about avant-garde music through Music History classes and eventually founded the small ensemble Spoonbeams where we were able to learn, think, and create thought music. My interest in didgeridoo was supported by my instrumental professors and we explored various extended techniques together. I was encouraged to explore technology through music and it became my senior thesis as well.`,
+
+      `After school, I completed my Masters Degree in Audio Arts at Syracuse University and moved to Los Angeles to pursue the music industry and the base knowledge on artistry and musicality that was instilled in me at Youngstown has been instrumental to my success.`,
+
+      `I've tried to keep up with watching what has happened at Dana since I've left and I'm really disappointed with the place that it seems to have become. There is a massive untapped potential within the valley for amazing music to be created and Dana School of Music stands as one of the pillars of where that should be coming out of, but it stands crumbling. I do not support any of the administrative decisions that are proposed.`,
+      `Andrew Morro`,
+    ],
+    credentials: {
+      jobTitle: "Day-to-Day Manager, ATC Management",
+      degree: "B.M. in Music Recording and Technology",
+      year: "2020",
+    },
+    imgSrc: andrewMorro,
   },
 };
