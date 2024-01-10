@@ -24,6 +24,7 @@ import trumanLittler from "@/assets/testimonial-images/truman-littler.jpg";
 import andrewMorro from "@/assets/testimonial-images/andrew-morro.jpg";
 import georgeWallaceMiklas from "@/assets/testimonial-images/george-wallace-miklas.png";
 import amandaBeagleBossio from "@/assets/testimonial-images/amanda-beagle-bossio.jpg";
+import brendanGage from "@/assets/testimonial-images/brendan-gage.jpg";
 
 interface Testimonial {
   imgSrc?: string;
@@ -39,6 +40,24 @@ interface Credentials {
 }
 
 export const testimonials: { [p: string]: Testimonial } = {
+  "brendan-gage": {
+    name: "Brendan Gage",
+    description: [
+      `As the son of Dr. Stephen Gage, who taught at the Dana School of Music for nearly thirty years, my experience with the school began much earlier in life than the fall of my freshman year in 2016. From my very early childhood I have memories of listening to the YSU Wind Ensemble in Stambaugh Auditorium, visiting campus, and meeting many of the students embarking on the journey that is music school. Each of them had different reasons for being there, but all had come to the conclusion that Youngstown was the place that could meet their needs and assist them in reaching their goals. Every single one of them helped to inspire me and countless others to go into music as well. What YSU’s administration plans to do to Dana would make that no longer true for many past, present, and future musicians.`,
+      `Every individual program in a music school attracts talented musicians that make the whole school a better place. Some of my very close friends while in school were composition majors, a program being specifically targeted for “sunsetting” at the current time. They did far more than just composing while in school however, participating in social events, group classroom work, and performing ensembles. In every situation their unique perspective and skills brought value to the experience, and many were among the strongest students and performers in their respective groups. Having composers at YSU allowed my brass quintet to perform originally composed works of music, which can be challenging as you have no prior recordings to reference for musical interpretation. This is an extremely valuable experience for any musician seeking to enter the field as a performer, and would be impossible without those whose primary focus is composition. The same can be said about the jazz program; coming into school my primary focus had been as a classical musician, but being surrounded by students who were incredibly passionate about jazz allowed me to broaden my horizons and become a much more versatile player. This directly led to a significant amount of work for me in commercial music styles since graduating. The programs being targeted by the university at this time are considered standard and essential parts of any healthy music school, as one can see very easily examining any top tier musical institution in the nation.`,
+      `The stature and breadth of offerings of the Dana School of Music have also attracted world-class visiting artists over the years. Numerous composers, performers, and educators have visited the school to share knowledge and experience with its current students, some of which I was fortunate enough to be present for. This is largely possible because of the reputation of Dana as a high-quality and full-offering musical institution. Richard King, Lorna McGhee, Allen Vizzutti, Carter Pann, Frank Ticheli, Chad Lefkowitz-Brown, Sean Jones, Derek Dixie, and so many more are nationally and globally recognized artists that might not have been interested in visiting YSU at all if Dana were not meeting what is simply the standard for music schools in this country. Among these visiting artists are a multitude of alumni who have seen great success since graduating, proving that concern over “marketability” is foolish and unnecessary.`,
+      `Lastly, I want to touch on the Dana School of Music’s influence on the world around it. So far I’ve talked largely about about the experience of those in the school, but it ultimately exists to serve the rest of the community around and even the country. Last spring my family put on a concert to honor the legacy of my dad’s time at Dana; we had nearly one hundred participants that were all Dana alumni from his tenure, and well over one thousand audience members who came to experience music in the tradition that had been built up by him over almost thirty years. Those alumni are a mixture of performers, educators, and composers, with music being the primary career of most all of them. The audience members were people from the community that have personally felt the impact created by Dana and the people in it, and would hate to see it harmed. Visit any school system in the Mahoning Valley and you’ll nearly always find a music educator that is a product of YSU and the Dana School of Music. Even many of the music teachers in the area from before my dad’s time are YSU alumni, proving that the school’s success and influence is time-tested. A recording of Eric Whitacre’s “October” by the YSU Wind Ensemble in 2008 has more than ONE MILLION listens on Spotify, an otherworldly feat for a music school that doesn’t have the name recognition of a Juilliard, Curtis, or Rice. None of these achievements would’ve been possible without every single student and faculty member involved, across all programs of the music school.`,
+      `What my father always set out to accomplish was in a way quite simple: teach people to love music. He and his colleagues at the Dana School of Music have done this in droves over many years of hard work, the fruits of which are readily visible all across the nation. Dana has produced musicians of all varieties that have been incredibly successful in their areas, proving that the school needs nourishment and support for growth rather than cuts and reductions in offerings. To all who have the influence to do so, I ask you to Save Dana, and to #LoveMusic.`,
+      `Brendan Gage`,
+      `B.M. in Horn Performance, class of 2020`,
+    ],
+    credentials: {
+      jobTitle: "Freelance Musician",
+      degree: "B.M. in Horn Performance",
+      year: "2020",
+    },
+    imgSrc: brendanGage,
+  },
   "anthony-taddeo": {
     name: "Anthony Taddeo",
     description: [
