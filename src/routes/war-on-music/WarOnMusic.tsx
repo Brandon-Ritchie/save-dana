@@ -237,11 +237,11 @@ export default () => {
 
         <Paragraph>What does all this tell us?</Paragraph>
 
-        <ol className="mx-4">
-          <li>1) We are being gaslighted, and</li>
-          <li>2) We still have more work to do, and</li>
+        <ol className="ml-8 list-decimal">
+          <li>We are being gaslighted, and</li>
+          <li>We still have more work to do, and</li>
           <li>
-            3) <strong>Your posts are working!</strong> Because what happened
+            <strong>Your posts are working!</strong> Because what happened
             between morning and evening on January 7? This website had more than
             10,000 unique views, and the related petition gathered more than
             6300 signatures (as of this message going live).
