@@ -52,7 +52,6 @@ export const testimonials: { [p: string]: Testimonial } = {
       `B.M. in Horn Performance, class of 2020`,
     ],
     credentials: {
-      jobTitle: "Freelance Musician",
       degree: "B.M. in Horn Performance",
       year: "2020",
     },
