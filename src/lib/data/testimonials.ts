@@ -25,6 +25,7 @@ import andrewMorro from "@/assets/testimonial-images/andrew-morro.jpg";
 import georgeWallaceMiklas from "@/assets/testimonial-images/george-wallace-miklas.png";
 import amandaBeagleBossio from "@/assets/testimonial-images/amanda-beagle-bossio.jpg";
 import brendanGage from "@/assets/testimonial-images/brendan-gage.jpg";
+import spencerReed from "@/assets/testimonial-images/spencer-reed.jpg";
 
 interface Testimonial {
   imgSrc?: string;
@@ -497,6 +498,19 @@ an investment in the future of Youngstown.`,
       year: "2008",
     },
     imgSrc: bryanKennard,
+  },
+  "spencer-reed": {
+    name: "Spencer Reed",
+    description: [
+      `My name is Spencer Reed. I am a graduate of the Dana School of Music with a Bachelors and Masters of Music Performance. These degrees have provided opportunities I would not otherwise have. Because of the amazing professors, incredible instruments, and fantastic networking opportunities; I work as a musician. Since my time at YSU, I have managed a piano store, played with symphonies, accompanied kids in school systems for events like Solo and Ensemble, performed for musicals, and much more. I now run a piano studio of more than 30 kids in addition to my job as a church organist, string orchestra teacher, and performer. Music has the unique capability of teaching discipline and open mindedness in a way not many other disciplines teach. As a student, you are required to problem solve, use critical thinking, accept failure and learn from it. Students learn all sorts of music and with them varying degrees of expression from different cultures. There is a reason that kids who learn a musical instrument in school have higher college attendance rates and better scores on state tests. These students both get inspiration from their teachers but also from performers. I grew up studying piano in a musical household. I practiced just 30 minutes a day for years but one day I was able to go see this incredible pianist that played his own arrangements of different Christmas tunes. This performance motivated me to practice harder and more diligently. Performers and teachers are needed to motivate the next generation. The cuts that the University may make will in due time affect the education of our children and I believe your own college attendance rate. The way to grow the University is not to cut programs it deems not profitable but to invest in it. I’m saddened to hear of another round of cuts. Let there be no confusion as to why there may be less enrollment. It is purely from a lack of support in the institution and an overhanging threat of unemployment. I have not advised my students currently to attend YSU for music but yet to look elsewhere. The decision to cut programs does not look good for a potential student of yours. Why would I trust that my student would get the qualified teachers I had in two years time when just a couple years ago other professors were let go and possibly more will be let go now? I would advise you to reconsider your cuts to the longstanding Dana School of Music.`,
+      `Sincerely,`,
+      `Spencer Reed`,
+    ],
+    credentials: {
+      jobTitle: "Piano Teacher",
+      degree: "B.M. and M.M. in Piano Performance",
+    },
+    imgSrc: spencerReed,
   },
   "brendan-mcevoy": {
     name: "Brendan McEvoy",
