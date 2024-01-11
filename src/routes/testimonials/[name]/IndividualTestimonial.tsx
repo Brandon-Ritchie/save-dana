@@ -1,4 +1,5 @@
 import Card from "@/lib/components/Card";
+import Paragraph from "@/lib/components/Paragraph";
 import { testimonials } from "@/lib/data/testimonials";
 import { useLayoutEffect } from "react";
 import { useParams } from "react-router-dom";
@@ -32,7 +33,7 @@ export default () => {
               />
             )}
 
-            <h1 className="text-4xl">{testimonial.name}</h1>
+            <h1>{testimonial.name}</h1>
 
             {testimonial.credentials && (
               <>
@@ -54,9 +55,7 @@ export default () => {
       </aside>
       <section className="my-4 flex flex-col justify-center lg:col-span-2">
         {testimonial.description.map((paragraph, index) => (
-          <p className="mb-2" key={index}>
-            {paragraph}
-          </p>
+          <Paragraph key={index}>{paragraph}</Paragraph>
         ))}
       </section>
     </div>

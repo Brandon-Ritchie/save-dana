@@ -3,6 +3,8 @@ import Enrollment2021 from "../../assets/2021-dana-enrollment.png";
 import Enrollment2023 from "../../assets/2023-dana-enrollment.png";
 import assessment from "../../assets/assessment-of-undergraduate.jpeg";
 import Card from "@/lib/components/Card";
+import Paragraph from "@/lib/components/Paragraph";
+import Quote from "@/lib/components/Quote";
 import { useLayoutEffect } from "react";
 
 export default () => {
@@ -516,12 +518,4 @@ const ImageSection = ({
       </Card>
     </div>
   </div>
-);
-
-const Paragraph = ({ children }: { children: React.ReactNode }) => (
-  <p className="my-4">{children}</p>
-);
-
-const Quote = ({ children }: { children: React.ReactNode }) => (
-  <blockquote className="mx-8 my-4 italic">{children}</blockquote>
 );

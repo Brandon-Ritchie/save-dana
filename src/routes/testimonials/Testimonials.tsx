@@ -1,3 +1,4 @@
+import Paragraph from "@/lib/components/Paragraph";
 import TestimonialCard from "@/lib/components/TestimonialCard";
 import { testimonials } from "@/lib/data/testimonials";
 import { useLayoutEffect } from "react";
@@ -11,11 +12,11 @@ export default () => {
     <>
       <h1>Testimonials</h1>
       <section className="lg:p-4">
-        <p>
+        <Paragraph>
           Below are alumni success stories and statements about the upcoming
           closure of the Dana School of Music.
-        </p>
-        <p>
+        </Paragraph>
+        <Paragraph>
           If you are an alumnus of the Dana School of Music and wish to submit
           your own, please email a headshot, statement, degree, graduation year,
           and current employment to{" "}
@@ -25,7 +26,7 @@ export default () => {
           >
             save.the.dana.school.of.music@gmail.com
           </a>
-        </p>
+        </Paragraph>
       </section>
       <section>
         {Object.keys(testimonials).map((key, index) => (
