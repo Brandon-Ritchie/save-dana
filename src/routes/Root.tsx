@@ -20,9 +20,9 @@ export default function Root() {
             Composition and Jazz Studies, as well as the BA in Music.
           </p>
           <p>
-            On Jan. 10, YSU Admin will present these cuts to a special meeting
-            of the Academic Senate, as a contractual requirement to be able to
-            fire faculty in those areas. By Jan. 31, an unknown number of Dana
+            On Jan. 10, YSU Admin presented these cuts to a special meeting of
+            the Academic Senate, as a contractual requirement to be able to fire
+            faculty in those areas. By Jan. 31, an unknown number of Dana
             faculty will have been fired without cause.
           </p>
           <p>
