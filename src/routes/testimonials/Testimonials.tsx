@@ -1,3 +1,4 @@
+import AnchorLink from "@/lib/components/AnchorLink";
 import Paragraph from "@/lib/components/Paragraph";
 import TestimonialCard from "@/lib/components/TestimonialCard";
 import { testimonials } from "@/lib/data/testimonials";
@@ -20,12 +21,9 @@ export default () => {
           If you are an alumnus of the Dana School of Music and wish to submit
           your own, please email a headshot, statement, degree, graduation year,
           and current employment to{" "}
-          <a
-            className="underline"
-            href="mailto:save.the.dana.school.of.music@gmail.com"
-          >
+          <AnchorLink href="mailto:save.the.dana.school.of.music@gmail.com">
             save.the.dana.school.of.music@gmail.com
-          </a>
+          </AnchorLink>
         </Paragraph>
       </section>
       <section>

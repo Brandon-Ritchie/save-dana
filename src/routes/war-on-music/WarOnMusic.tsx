@@ -6,6 +6,7 @@ import Card from "@/lib/components/Card";
 import Paragraph from "@/lib/components/Paragraph";
 import Quote from "@/lib/components/Quote";
 import { useLayoutEffect } from "react";
+import AnchorLink from "@/lib/components/AnchorLink";
 
 export default () => {
   useLayoutEffect(() => {
@@ -98,12 +99,9 @@ export default () => {
           Online, Acting Provost Jennifer Pintar will give a presentation to
           YSU's Academic Senate, attempting to justify cutting Dana's (and
           other) programs. This can be attended at the following link:{" "}
-          <a
-            className="underline"
-            href="https://ysu.webex.com/ysu/j.php?MTID=m213476a1a586953944920d5448cdf2ad"
-          >
+          <AnchorLink href="https://ysu.webex.com/ysu/j.php?MTID=m213476a1a586953944920d5448cdf2ad">
             https://ysu.webex.com/ysu/j.php?MTID=m213476a1a586953944920d5448cdf2ad
-          </a>
+          </AnchorLink>
         </Paragraph>
         <Paragraph>Meeting number: 2313 583 2801</Paragraph>
         <Paragraph>Password: K9vJ5jnqS3n</Paragraph>
@@ -241,12 +239,9 @@ export default () => {
 
         <Paragraph>
           Feel free to peruse{" "}
-          <a
-            className="underline"
-            href="https://ysu.edu/strategic-planning/phase3/institutional-effectiveness-framework"
-          >
+          <AnchorLink href="https://ysu.edu/strategic-planning/phase3/institutional-effectiveness-framework">
             https://ysu.edu/strategic-planning/phase3/institutional-effectiveness-framework
-          </a>
+          </AnchorLink>
           .
         </Paragraph>
 
@@ -369,12 +364,9 @@ export default () => {
           presentation to the Board of Trustees on her “Academic Master Plan,”
           which could be considered the latest salvo in the Administration’s War
           on Music. The{" "}
-          <a
-            className="underline"
-            href="https://businessjournaldaily.com/ysu-examines-resource-reallocation-for-programs/"
-          >
+          <AnchorLink href="https://businessjournaldaily.com/ysu-examines-resource-reallocation-for-programs/">
             Business Journal reported
-          </a>{" "}
+          </AnchorLink>{" "}
           on this presentation the following day.
         </Paragraph>
 
@@ -467,12 +459,9 @@ export default () => {
           areas were unchanged, since every music student is required to take
           History and Theory! After a lengthy arbitration (informal trial), a
           neutral judge{" "}
-          <a
-            href="https://www.dropbox.com/scl/fi/iy6m42egj3zbobqxwbs3v/YSU-OEA-arbitration-award.pdf?rlkey=kf8iw74vbjdg0gozhyqw092a5&dl=0"
-            className="underline"
-          >
+          <AnchorLink href="https://www.dropbox.com/scl/fi/iy6m42egj3zbobqxwbs3v/YSU-OEA-arbitration-award.pdf?rlkey=kf8iw74vbjdg0gozhyqw092a5&dl=0">
             found
-          </a>{" "}
+          </AnchorLink>{" "}
           that the Administration had violated the faculty members’ contracts,
           and restored the jobs to those faculty members.
         </Paragraph>

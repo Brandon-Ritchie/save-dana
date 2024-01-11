@@ -1,3 +1,4 @@
+import AnchorLink from "@/lib/components/AnchorLink";
 import Paragraph from "@/lib/components/Paragraph";
 import { useLayoutEffect } from "react";
 
@@ -55,9 +56,9 @@ export default function WhatCanIDo() {
       <section>
         <h2>Sign The Petition</h2>
         <Paragraph>
-          <a className="underline" href="https://chng.it/z6KnYcwDTk">
+          <AnchorLink href="https://chng.it/z6KnYcwDTk">
             Sign the Petition
-          </a>{" "}
+          </AnchorLink>{" "}
           and then share the petition on social media!
         </Paragraph>
       </section>
@@ -90,12 +91,9 @@ export default function WhatCanIDo() {
         <h2>Send a Testimonial</h2>
         <Paragraph>Are you an alumnus of the Dana School of Music?</Paragraph>
         <Paragraph>
-          <a
-            className="underline"
-            href="mailto:save.the.dana.school.of.music@gmail.com"
-          >
+          <AnchorLink href="mailto:save.the.dana.school.of.music@gmail.com">
             Send us a testimonial
-          </a>{" "}
+          </AnchorLink>{" "}
           about how the Dana School of Music impacted your life!
         </Paragraph>
       </section>
@@ -105,28 +103,27 @@ export default function WhatCanIDo() {
           Click on any of the links below to open your email client with that
           individual's email in the "To:" field:
         </Paragraph>
-        <ul className={ulClassName}>
+        <ListWithMargin>
           {administration.map((person) => (
             <li key={person.email}>
-              <a className="underline" href={`mailto:${person.email}`}>
+              <AnchorLink href={`mailto:${person.email}`}>
                 {person.name}
-              </a>
+              </AnchorLink>
             </li>
           ))}
-        </ul>
+        </ListWithMargin>
       </section>
       <section>
         <h2>Write To The Board of Trustees</h2>
         <h3>Send an email to the entire Board of Trustees</h3>
         <Paragraph>
-          <a
-            className="underline"
+          <AnchorLink
             href={`mailto:${boardOfTrustees
               .map((trust) => trust.email)
               .join(",")}`}
           >
             Click Here
-          </a>{" "}
+          </AnchorLink>{" "}
           to open your email client with all of the Board of Trustees' emails in
           the "To:" field.
         </Paragraph>
@@ -135,16 +132,20 @@ export default function WhatCanIDo() {
           Click on any of the links below to open your email client with that
           individual's email in the "To:" field:
         </Paragraph>
-        <ul className={ulClassName}>
+        <ListWithMargin>
           {boardOfTrustees.map((person) => (
             <li key={person.email}>
-              <a className="underline" href={`mailto:${person.email}`}>
+              <AnchorLink href={`mailto:${person.email}`}>
                 {person.name}
-              </a>
+              </AnchorLink>
             </li>
           ))}
-        </ul>
+        </ListWithMargin>
       </section>
     </>
   );
 }
+
+const ListWithMargin = ({ children }: { children: React.ReactNode }) => (
+  <ul className="mx-3">{children}</ul>
+);
