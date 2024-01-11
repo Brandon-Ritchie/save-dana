@@ -28,6 +28,7 @@ import brendanGage from "@/assets/testimonial-images/brendan-gage.jpg";
 import spencerReed from "@/assets/testimonial-images/spencer-reed.jpg";
 import katherineReed from "@/assets/testimonial-images/katherine-reed.jpg";
 import stephanieRuozzo from "@/assets/testimonial-images/stephanie-ruozzo.png";
+import phoebeJones from "@/assets/testimonial-images/phoebe-jones.jpg";
 
 interface Testimonial {
   imgSrc?: string;
@@ -892,5 +893,23 @@ education.`,
       year: "2012 and 2013",
     },
     imgSrc: stephanieRuozzo,
+  },
+  "phoebe-jones": {
+    name: "Phoebe Jones",
+    description: [
+      `My name is Phoebe Jones, but at the time I completed my degree from YSU, my name was Rachel. I graduated from the Dana School of Music with a BA in Music Theory in 2021, a program that was sunsetted a few years ago. Hearing about the removal of the music theory degree was heartbreaking, not only because of my love for the program, but also because of the potential impact on my future career. Hearing of the imminent removal of several more (significantly more populated) programs from Dana is devastating.`,
+      `The faculty at Dana are some of the most dedicated that I have had the pleasure of working with. Dr. Jena Root gave me the confidence in my own capabilities that I had been lacking in my previous aural skills experience. In my work as a tutor for music theory students, she went above and beyond to work with me to find the best ways to approach students who were struggling. She is every part of the educator I aspire to be as I complete my MM in Music Theory. She gave me the chance to attend SMT's conference in Virginia in 2017, an opportunity that most freshmen would not have had access to. That kickstarted my interest in music research and set the path for me to present my own work in the TAGS 2023 conference in Liverpool. Without that exposure to the larger world of music research, I would not have known the potential for my own work. Dr. Cicilia Yudha, who is still the associate professor of piano at Dana, allowed me to take private lessons with her instead of the require piano classes. I arrived at her office with an old copy of Clair de Lune and an incredible lack of confidence, and she patiently worked with me until I gave my first solo performance at the end of my first semester. I cannot stress enough how vital instructors like Dr. Yudha are for young musicians like me. There was never a moment when she relied on guilt or stress to encourage me to practice; as her student, the focus was on my own improvement and my potential as a musician. Her teaching style massively improved my relationship with private lessons and still impacts how I improve my piano skills today. Dr. Yudha also influenced the development of my career. I am about to complete my MM in Music Theory at UNC Greensboro, from which she graduated with her master's degree. She connected me with the chair of the music theory department and worked with me throughout the application and interview process. I have been so fortunate to have the research and pedagogy experience that this university has given me because of her encouragement and connections.`,
+      `At Dana, I had no end of performance opportunities, but the most impactful experience by far was the opera program. As a music theorist, performing has never been something I have been comfortable with, but the opera program instilled within me a love of performing with other musicians. Most of my colleagues throughout my time in the opera program were performance majors. The dedicated and skilled vocal faculty attracted a wide variety of musicians, and all of us loved the hard work that we put in to providing the best show we could. I was cast as Hansel in Hansel and Gretel my sophomore year, when the budget for the opera was removed. It is my understanding that the program was intended to be removed. The consistent removal of opportunities from musicians is a truly disturbing trend and marks a decline in the university's desire to provide their students with the best education and experience possible.`,
+      `I am incredibly disappointed with the administration's decision to remove even more programs from Dana. YSU is slowly joining the thousands of other universities that are removing and devaluing the arts. Soon, young musicians will have to travel several states away to find a suitable music program with diverse experiences and dedicated faculty, most likely at an expensive or exclusive conservatory. If we are set on removing the instructors who truly care about providing the best experience to their students, how can students trust the university to value their education? How do we expect the arts to survive, how do we continue to foster the development of young musicians like myself if we continue to strip our programs dry?`,
+      `Listen to the faculty, and listen to your students, both present and past. Without them, this university is nothing.`,
+      `Phoebe Jones (she/they)`,
+      `MM in Music Theory, UNC Greensboro`,
+    ],
+    credentials: {
+      jobTitle: "Graduate Student, UNC Greensboro",
+      degree: "B.A. in Music Theory",
+      year: "2021",
+    },
+    imgSrc: phoebeJones,
   },
 };
