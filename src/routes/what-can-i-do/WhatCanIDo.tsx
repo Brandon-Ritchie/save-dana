@@ -7,8 +7,6 @@ export default function WhatCanIDo() {
     window.scrollTo(0, 0);
   });
 
-  const ulClassName = "mx-3";
-
   const administration = [
     {
       name: "Provost Brien Smith",
