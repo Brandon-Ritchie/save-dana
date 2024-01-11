@@ -26,6 +26,8 @@ import georgeWallaceMiklas from "@/assets/testimonial-images/george-wallace-mikl
 import amandaBeagleBossio from "@/assets/testimonial-images/amanda-beagle-bossio.jpg";
 import brendanGage from "@/assets/testimonial-images/brendan-gage.jpg";
 import spencerReed from "@/assets/testimonial-images/spencer-reed.jpg";
+import katherineReed from "@/assets/testimonial-images/katherine-reed.jpg";
+import stephanieRuozzo from "@/assets/testimonial-images/stephanie-ruozzo.png";
 
 interface Testimonial {
   imgSrc?: string;
@@ -833,5 +835,62 @@ faculty, students, and the community at large.`,
       year: "2003",
     },
     imgSrc: amandaBeagleBossio,
+  },
+  "katherine-reed": {
+    name: "Dr. Katherine Reed",
+    description: [
+      `As a 2007 graduate of the Dana School of Music, I cannot imagine how the proposed changes to
+the School’s majors and faculty would have altered my education at Dana and my career path.
+Though I was a music education major -- not majoring in composition or jazz -- I regularly
+interacted with the faculty members in those areas. They were my music theory teachers, who
+taught me to understand music in different ways. They directed the jazz ensembles I played in
+for all four years of my time at YSU, ensembles that pushed my trombone performance skills
+and helped me grow my confidence as an improviser and performer. Without the Dana faculty
+in these areas as well as the faculty in my area of concentration, I would never have pursued an
+MM in performance or a PhD in musicology. These were musical worlds that were opened to
+me through the many varied experiences I had at Dana.`,
+      `I know my story is similar to many – the friends I see teaching the next generation of musicians
+in northeast Ohio, helming arts organizations, teaching at the university level, and performing
+around the world. I came to YSU with an idea of the career I wanted after graduation, but my
+time at Dana helped me to realize just how much more of a musical world existed beyond my
+limited experience. The faculty at Dana gave me a true university education: they not only
+taught me to be a teacher, they also taught me to be a learner, voraciously interested in all
+sorts of musical traditions and philosophies. The faculty in every area at Dana were
+instrumental to this growth, as they are for students today. To eliminate faculty positions and
+majors in the School of Music will be to deny that same transformative experience to YSU’s
+students today and tomorrow. It would be to dismantle the influential and respected Dana
+School of Music, because a Dana degree would not provide the same opportunities, the same
+breadth of instruction and experience.`,
+      `I sincerely hope that the trustees, the Senate, and YSU’s administration will reconsider these
+changes to Dana. This School of Music is a special place, unique in northeast Ohio and central to
+YSU’s place in the Mahoning Valley community. I hope that the administration will recognize
+that importance and act to preserve everything that makes up a Dana School of Music
+education.`,
+      `Dr. Katherine Reed`,
+      `Associate Professor, Musicology`,
+      `California State University, Fullerton`,
+    ],
+    credentials: {
+      jobTitle: "Associate Professor, Musicology",
+      degree: "B.M. in Music Education",
+      year: "2007",
+    },
+    imgSrc: katherineReed,
+  },
+  "stephanie-ruozzo": {
+    name: "Stephanie Ruozzo",
+    description: [
+      `I received two degrees from the Dana School of Music. I arrived at Dana knowing what I wanted to study, but it was only the mentorship of Drs. Bockowska and Goldberg that taught me why I wanted to study. An academic institution has no business calling itself a university if it does not offer profound reflection on the seven liberal arts and the humanities. Dana gave me the time, resources, instruction, and skills to reflect; I very much hope that future students will have that as well.`,
+      `Sincerely,`,
+      `Stephanie Ruozzo`,
+    ],
+    credentials: {
+      jobTitle:
+        "Director of Education and Engagement, Cleveland Opera Theater and License Holder Support Agent, ONE LICENSE LLC",
+      degree:
+        "B.M. in Music Education and B.A. in Music History and Literature",
+      year: "2012 and 2013",
+    },
+    imgSrc: stephanieRuozzo,
   },
 };
