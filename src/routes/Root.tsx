@@ -26,6 +26,14 @@ export default function Root() {
             faculty will have been fired without cause.
           </p>
           <p>
+            On January 12, join the next student-led Protest of cuts to Dana, at
+            the YSU Men’s Basketball game being broadcast live on ESPN2. See{" "}
+            <Link to="/what-can-i-do" className="underline">
+              What Can I Do?
+            </Link>{" "}
+            for more details.
+          </p>
+          <p>
             The Dana School of Music will not be able to continue to exist with
             these cuts.
           </p>

@@ -61,12 +61,22 @@ export default function WhatCanIDo() {
         </p>
       </section>
       <section>
-        <h2>Join The Protest</h2>
+        <h2>Join The Next Protest</h2>
         <p>
-          At 4pm on Wednesday, January 10, join a peaceful—and very very
-          loud—protest outside YSU's Tod Hall. Bring #savedana and #lovemusic
-          signs, and make your voice (and music) be heard!
+          YSU will have a national audience on Friday night, January 12, at 9pm,
+          when Men's Basketball plays a game which will be broadcast live on
+          ESPN2. Tickets are free for current students with a YSU ID. Go to the
+          game, cheer on Dana students in the pep band, and let your voice be
+          heard in support of music!
         </p>
+        <p>
+          Please note the official Beeghly Center policy: "Fans are not
+          permitted to bring and display banners at Beeghly Center, as they may
+          interfere with the game and other guests' enjoyment of the game.
+          Youngstown State University reserves the right to remove banners and
+          signs. Poles and/or sticks are also prohibited."
+        </p>
+        <p>#savedana and #lovemusic</p>
       </section>
       <section>
         <h2>Spread The Word!</h2>
