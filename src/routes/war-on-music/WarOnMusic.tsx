@@ -18,7 +18,7 @@ export default () => {
       <h1>Youngstown State University’s War on Music</h1>
 
       <section>
-        <h2>Update - January 9th, 2024 - 10:00pm EST</h2>
+        <h2>Update - January 10th, 2024 - 10:00pm EST</h2>
         <Paragraph>
           Today outside Tod Hall, approximately 100 supporters braved freezing
           weather, rain, snow, and even a light hailstorm, to make noise in
