@@ -90,7 +90,7 @@ export default () => {
       </section>
 
       <section>
-        <h2>Update - January 9th, 2023, 11:00pm EST</h2>
+        <h2>Update - January 9th, 2024, 11:00pm EST</h2>
         <Paragraph>
           Two simultaneous events are taking place Wednesday, January 10, at
           4pm.
