@@ -60,24 +60,7 @@ export default function WhatCanIDo() {
           and then share the petition on social media!
         </Paragraph>
       </section>
-      <section>
-        <h2>Join The Next Protest</h2>
-        <Paragraph>
-          YSU will have a national audience on Friday night, January 12, at 9pm,
-          when Men's Basketball plays a game which will be broadcast live on
-          ESPN2. Tickets are free for current students with a YSU ID. Go to the
-          game, cheer on Dana students in the pep band, and let your voice be
-          heard in support of music!
-        </Paragraph>
-        <Paragraph>
-          Please note the official Beeghly Center policy: "Fans are not
-          permitted to bring and display banners at Beeghly Center, as they may
-          interfere with the game and other guests' enjoyment of the game.
-          Youngstown State University reserves the right to remove banners and
-          signs. Poles and/or sticks are also prohibited."
-        </Paragraph>
-        <p>#savedana and #lovemusic</p>
-      </section>
+
       <section>
         <h2>Spread The Word!</h2>
         <Paragraph>
@@ -85,6 +68,7 @@ export default function WhatCanIDo() {
           Make certain they know about this!
         </Paragraph>
       </section>
+
       <section>
         <h2>Send a Testimonial</h2>
         <Paragraph>Are you an alumnus of the Dana School of Music?</Paragraph>
@@ -95,6 +79,7 @@ export default function WhatCanIDo() {
           about how the Dana School of Music impacted your life!
         </Paragraph>
       </section>
+
       <section>
         <h2>Write To The Administration</h2>
         <Paragraph>
@@ -111,6 +96,7 @@ export default function WhatCanIDo() {
           ))}
         </ListWithMargin>
       </section>
+
       <section>
         <h2>Write To The Board of Trustees</h2>
         <h3>Send an email to the entire Board of Trustees</h3>
