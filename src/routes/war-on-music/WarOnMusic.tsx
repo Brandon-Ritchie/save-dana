@@ -18,7 +18,7 @@ export default () => {
       <h1>Youngstown State University’s War on Music</h1>
 
       <section>
-        <h2>Update - January 13th, 2023 - 3:00pm EST</h2>
+        <h2>Update - January 13th, 2024 - 3:00pm EST</h2>
         <Paragraph>
           Yesterday, Dana faculty received a seniority list and offers of VSRP
           (Voluntary Separation or Retirement Program). Here's what that means:
