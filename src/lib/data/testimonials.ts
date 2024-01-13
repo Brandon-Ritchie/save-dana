@@ -29,6 +29,7 @@ import spencerReed from "@/assets/testimonial-images/spencer-reed.jpg";
 import katherineReed from "@/assets/testimonial-images/katherine-reed.jpg";
 import stephanieRuozzo from "@/assets/testimonial-images/stephanie-ruozzo.png";
 import phoebeJones from "@/assets/testimonial-images/phoebe-jones.jpg";
+import josephBadaczewski from "@/assets/testimonial-images/joseph-badaczewski.jpg";
 
 interface Testimonial {
   imgSrc?: string;
@@ -60,6 +61,24 @@ export const testimonials: { [p: string]: Testimonial } = {
       year: "2020",
     },
     imgSrc: brendanGage,
+  },
+  "joseph-Badaczewski": {
+    name: "Joseph Badaczewski",
+    description: [
+      `I’m “Joe Bad”, 2005 trumpet performance graduate. Since “industry demand” and other terms have been used in determining program viability, I’d like to provide a brief picture of my freelance music career; there is quite a demand for musicians across the globe.`,
+      `Before I mention any personal experience, I must point out that national relevance and success was a hallmark of the Dana School during my attendance. Each year, the YSU Wind Ensemble, under the direction of Dr. Steven Gage, won a spot performing at state or national conferences, including NMEA and Carnegie Hall NYC; this was culminated by YSU winning the 2005 Downbeat Magazine College Instrumental Recording of the Year for our album “Spin Cycle”. Demonstrating the school’s versatility, Jazz Ensemble 1 under Dr. Englehardt also won spots at these conferences; in particular, an OMEA performance from 2004 was so bombastic that the recording was eventually released on itunes. During summers, students regularly won positions at elite music programs such as Interlochen, Aspen, Banff, the Disneyland All-American College Band program, and professional gigs in Japan and Europe with groups like “Blast.”`,
+      `A brief, informal list of gigs since then: Trumpet soloist, Glenn Miller Orchestra world tour. Disneyland All-American College Band; soloist, Assistant Director. Marina Bay Sands Singapore; grand opening residency. Venetian Macau; entertainment residency. The Desired Effect World Tour (with Brandon Flowers of the Killers); performances for the Queen at Royal Albert Hall, and at Red Square in Moscow. Indy 500 official raceday and awards banquet band; as member of electro-brass group Beauty Slap. Super Bowl LIII; recorded the symphonic track for Chloe X Halle’s pregame performance of America the Beautiful with a Dana faculty, student and alumni orchestra—this orchestra was assembled at the request of BEYONCÉ’s MUSIC DIRECTOR Derek Dixie, a former YSU and Dana student. 
+Many freelance performances; Frankie Valli and the 4 Seasons, Gino Vannelli, Father John Misty, Frankie Avalon and Fabian, John Clayton, Wyclef Gordon, Rufus Reid.. a wild array of fabulous artists. Cowriter, Zahili Gonzalez Zamora Project; received much international airplay. Performed with Bruce Johnston of the Beach Boys recently at Mark Milovats’ Byham Theater show. I have also held positions in jazz and trumpet at Santa Ana College, Duquesne University, Youngstown State University, and West Virginia University. `,
+      `This list has nothing to do with my ego. My intention has been the pursuit of bringing joy and connection through music, and I have carried the YSU name with me proudly. For twenty years, I’ve collided with Dana alumni across the globe wherever important music is happening.`,
+      `Sincerely,`,
+      `Joseph Badaczewski`,
+    ],
+    credentials: {
+      jobTitle: "Freelance Trumpet Performer",
+      degree: "B.M. in Trumpet Performance",
+      year: "2005",
+    },
+    imgSrc: josephBadaczewski,
   },
   "anthony-taddeo": {
     name: "Anthony Taddeo",
