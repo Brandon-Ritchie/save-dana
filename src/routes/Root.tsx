@@ -1,6 +1,6 @@
 import Card from "@/lib/components/Card";
 import { Link } from "react-router-dom";
-import cancelled from "@/assets/cancelled.jpg";
+import cancelled from "@/assets/images/cancelled.jpg";
 import Paragraph from "@/lib/components/Paragraph";
 
 export default function Root() {

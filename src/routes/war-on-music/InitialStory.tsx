@@ -1,10 +1,10 @@
 import AnchorLink from "@/lib/components/AnchorLink";
 import Paragraph from "@/lib/components/Paragraph";
 import ImageSection from "./ImageSection";
-import graduateEnrollment from "../../assets/graduate-students-enrollment.png";
-import Enrollment2021 from "../../assets/2021-dana-enrollment.png";
-import Enrollment2023 from "../../assets/2023-dana-enrollment.png";
-import assessment from "../../assets/assessment-of-undergraduate.jpeg";
+import graduateEnrollment from "@/assets/images/graduate-students-enrollment.png";
+import Enrollment2021 from "@/assets/images/2021-dana-enrollment.png";
+import Enrollment2023 from "@/assets/images/2023-dana-enrollment.png";
+import assessment from "@/assets/images/assessment-of-undergraduate.jpeg";
 
 export default () => (
   <section>

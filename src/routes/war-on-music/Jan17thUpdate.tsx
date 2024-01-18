@@ -1,10 +1,12 @@
 import Paragraph from "@/lib/components/Paragraph";
-import article132 from "../../assets/article13-2.jpg";
-import notClosing from "../../assets/not-closing.jpg";
-import twentyFaculty from "../../assets/20-faculty.jpg";
+import article132 from "@/assets/images/article13-2.jpg";
+import notClosing from "@/assets/images/not-closing.jpg";
+import twentyFaculty from "@/assets/images/20-faculty.jpg";
 import Quote from "@/lib/components/Quote";
 import ImageSection from "./ImageSection";
 import AnchorLink from "@/lib/components/AnchorLink";
+import successfulArbitration from "@/assets/pdfs/YSU - OEA arbitration award.pdf";
+import arbitrationExpenses from "@/assets/pdfs/YSU - OEA bill.pdf";
 
 export default () => (
   <section>
@@ -103,11 +105,17 @@ export default () => (
       President who led a successful strike against the University, and that YSU
       retrenched Goldberg because he had sued the University over Dean Phyllis
       Paul’s alleged anti-Semitic rants, leading to YSU paying him a rumored
-      six-figure settlement. In the end, Reale’s and Goldberg’s successful
-      arbitration of YSU’s contract violation cost the University hundreds of
-      thousands of dollars in back-pay for those two professors, arbitration
-      expenses, and legal fees. (And years later, Phyllis Paul is somehow still
-      Dean of the Cliffe College of Creative Arts).
+      six-figure settlement. In the end, Reale’s and Goldberg’s{" "}
+      <AnchorLink href={successfulArbitration} target="_blank">
+        successful arbitration
+      </AnchorLink>{" "}
+      of YSU’s contract violation cost the University hundreds of thousands of
+      dollars in back-pay for those two professors,{" "}
+      <AnchorLink href={arbitrationExpenses} target="_blank">
+        arbitration expenses
+      </AnchorLink>
+      , and legal fees. (And years later, Phyllis Paul is somehow still Dean of
+      the Cliffe College of Creative Arts).
     </Paragraph>
     <Paragraph>
       So again, we would love to have a debate, a discussion in which both sides
