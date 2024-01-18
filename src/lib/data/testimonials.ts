@@ -30,6 +30,8 @@ import katherineReed from "@/assets/testimonial-images/katherine-reed.jpg";
 import stephanieRuozzo from "@/assets/testimonial-images/stephanie-ruozzo.png";
 import phoebeJones from "@/assets/testimonial-images/phoebe-jones.jpg";
 import josephBadaczewski from "@/assets/testimonial-images/joseph-badaczewski.jpg";
+import kathrynStanton from "@/assets/testimonial-images/kathryn-stanton.jpg";
+import robertParise from "@/assets/testimonial-images/robert-parise.jpg";
 
 interface Testimonial {
   imgSrc?: string;
@@ -930,5 +932,36 @@ education.`,
       year: "2021",
     },
     imgSrc: phoebeJones,
+  },
+  "kathyrn-stanton": {
+    name: "Kathryn Stanton",
+    description: [
+      `My name is Kathryn Stanton, formerly Kathryn Kramer, and I am a graduate of the Dana School of Music, Class of 2017. I've been following the progress of the actions of the board and I am appalled.`,
+      `Dana was a pinnacle part in making me both the teacher and musician I am today. I currently serve as the choir director for Chaney High School in Youngstown, and that is in no small way thanks to what I learned from my professors at Dana. I had transferred in from Ball State in 2011, and my whole life shifted direction. I changed my instrumental focus to vocal, I made lifelong friends and colleagues, and even became a mother, introducing my child to an art form that I've actively practiced for almost 30 years with some top-notch musicians. One of my most treasured memories was bring selected as a featured soloist at the annual Christmas performance, the biggest event of the fall semester.`,
+      `Dana is a milestone for myself and so many other musicians. Please let it be so for so many more.`,
+    ],
+    credentials: {
+      jobTitle: "Choir Director, Chaney High School",
+      degree: "B.M. in Music Education",
+      year: "2017",
+    },
+    imgSrc: kathrynStanton,
+  },
+  "robert-parise": {
+    name: "Robert Parise, MD",
+    description: [
+      `I was saddened to hear of the proposed cuts to the Dana School of Music. I know that I would not be where I am today without the chance I had there. I am grateful to all the faculty from which I was privileged to learn.`,
+      `I grew up listening to the Dana School's Jazz Ensemble. I started studying with Dr Christopher Krummel, of the trumpet studio, when I was sixteen. His mentorship has been invaluable for me. I had plans of going into medicine from the beginning, and he, and the rest of the faculty were so supportive. They also were not going to let me slide through without applying myself. The lowest grade I received was in one of my classes at the Dana School, not the physics, biology, chemistry courses that I needed to take to complete my pre-medical requirements. `,
+      `After music school ended and I began medical school, I did put the music away for a while. Now, years later, I have time and have been enjoying all of the things that I learned there. I am so grateful for my education, that I can appreciate some of the greatest works of art in western civilization, that I can appreciate the structure of music as it has evolved through time. Music is one of the components of the ancient Trivium. It is the unification of form and emotion. `,
+      `When I was interviewing for medical school, I think every interviewer asked me about my music degree. They were very curious. I remember a biochemistry professor at Case Western that mostly talked to me about my opinions of various performances of the Cleveland Orchestra that we both had attended.  That degree was a differentiation from the typical applicant. It was something that showed an ability to learn both sides, the science and the art, which is so essential in the practice of medicine. It set me up for a lifetime of this kind of learning. Mental effort that is pleasurable for its own sake, untied to any direct financial gain.  All of the talk about immediate employability is important, but should not be universally applied to every student. Everyone's situation is different. They should have the choice. It is presumptuous to be a university, where adults can choose what to study, and to take some choice away from them ostensibly for  their own benefit.  From the data I have seen, the enrollment at Dana is going up. `,
+      `The Dana School is easily one of Youngstown State's greatest strengths. Growing up, it was locally  said that YSU has a good engineering, nursing, and music program. The quality of the program is extremely cost effective. The jazz ensembles and the wind band have a great tradition of excellence, on the national level. If the school is cut, I think the quality may go down, and Dana will not have the same reputation as it has had. YSU won't be as competitive, and enrollment will drop.`,
+    ],
+    credentials: {
+      jobTitle: "Physician - Internal medicine and psychiatry",
+      degree:
+        "B.A. in Music Youngstown State University, MD Northeast Ohio Medical University, Residency in Psychiatry, Case Western",
+      year: "2011, 2015, 2020",
+    },
+    imgSrc: robertParise,
   },
 };
