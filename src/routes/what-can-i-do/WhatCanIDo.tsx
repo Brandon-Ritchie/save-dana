@@ -9,16 +9,14 @@ export default function WhatCanIDo() {
 
   const administration = [
     {
-      name: "Provost Brien Smith",
-      email: "bnsmith06@ysu.edu",
-    },
-    {
-      name: "Associate Provost Jennifer Pintar",
+      name: "Interim Provost Jennifer Pintar",
       email: "japintar@ysu.edu",
+      phone: "330-941-4628",
     },
     {
       name: "Acting University President Neal McNally",
       email: "npmcnally@ysu.edu",
+      phone: "330-941-2719",
     },
     {
       name: "Incoming University President Bill Johnson",
@@ -27,10 +25,16 @@ export default function WhatCanIDo() {
     {
       name: 'Vice President of "Institutional Effectiveness" Mike Sherman',
       email: "msherman02@ysu.edu",
+      phone: "330-941-7281",
     },
     {
-      name: "CCAC Dean Phyllis Paul",
+      name: "Cliffe College of Creative Arts Dean Phyllis Paul",
       email: "pmpaul@ysu.edu",
+      phone: "330-941-3625",
+    },
+    {
+      name: "YSU Foundation President Paul McFadden",
+      phone: "330-941-3211",
     },
   ];
 
@@ -87,13 +91,36 @@ export default function WhatCanIDo() {
           individual's email in the "To:" field:
         </Paragraph>
         <ListWithMargin>
-          {administration.map((person) => (
-            <li key={person.email}>
-              <AnchorLink href={`mailto:${person.email}`}>
-                {person.name}
-              </AnchorLink>
-            </li>
-          ))}
+          {administration.map(
+            (person) =>
+              person.email && (
+                <li key={person.email}>
+                  <AnchorLink href={`mailto:${person.email}`}>
+                    {person.name}
+                  </AnchorLink>
+                </li>
+              ),
+          )}
+        </ListWithMargin>
+      </section>
+
+      <section>
+        <h2>Call the administration</h2>
+        <Paragraph>
+          Call the administration and tell them how you feel!
+        </Paragraph>
+        <ListWithMargin>
+          {administration.map(
+            (person) =>
+              person.phone && (
+                <li key={person.name}>
+                  <span>{person.name} - </span>
+                  <AnchorLink href={`tel:${person.phone}`}>
+                    {person.phone}
+                  </AnchorLink>
+                </li>
+              ),
+          )}
         </ListWithMargin>
       </section>
 
@@ -118,7 +145,7 @@ export default function WhatCanIDo() {
         </Paragraph>
         <ListWithMargin>
           {boardOfTrustees.map((person) => (
-            <li key={person.email}>
+            <li key={person.name}>
               <AnchorLink href={`mailto:${person.email}`}>
                 {person.name}
               </AnchorLink>
