@@ -89,7 +89,11 @@ export default () => (
       behind anonymity? For the simple reason that the YSU Administration has
       demonstrated a propensity toward punitive retribution against those who
       speak truth to power, whether in the media or through the Union or even
-      through legal action. And two recent examples strike close to home:
+      through legal action. And one* recent example strikes close to home:
+    </Paragraph>
+    <Paragraph>
+      *Edit 1/18, we originally posted a second example, which we have removed
+      by request.
     </Paragraph>
     <Paragraph>
       In 2021, after Dana sunset its own low-enrolled Music Theory and Music
@@ -98,13 +102,11 @@ export default () => (
       subjects were part of the required core curriculum for all Dana students
       in all remaining Dana majors. Nevertheless, YSU Administration retrenched
       two professors, and rather than starting at the bottom of the seniority
-      list as contractually required, YSU selected Steven Reale and Randall
-      Goldberg, each of whom was around the middle of the seniority list. Why
-      would YSU do so? We may never know with certainty, but it is widely
-      believed at Dana that YSU retrenched Reale because he had been the Union
-      President who led a successful strike against the University, and that YSU
-      retrenched Goldberg because he had sued the University over Dean Phyllis
-      Paul’s alleged anti-Semitic rants. In the end, Reale’s and Goldberg’s{" "}
+      list as contractually required, YSU selected two who were around the
+      middle of the seniority list. Why would YSU do so? We may never know with
+      certainty, but it is widely believed at Dana that YSU retrenched Steven
+      Reale because he had been the Union President who led a successful strike
+      against the University. The professors'{" "}
       <AnchorLink href={successfulArbitration} target="_blank">
         successful arbitration
       </AnchorLink>{" "}
@@ -113,8 +115,7 @@ export default () => (
       <AnchorLink href={arbitrationExpenses} target="_blank">
         arbitration expenses
       </AnchorLink>
-      , and legal fees. (And years later, Phyllis Paul is somehow still Dean of
-      the Cliffe College of Creative Arts).
+      , and legal fees.
     </Paragraph>
     <Paragraph>
       So again, we would love to have a debate, a discussion in which both sides
