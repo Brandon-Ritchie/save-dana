@@ -104,8 +104,7 @@ export default () => (
       believed at Dana that YSU retrenched Reale because he had been the Union
       President who led a successful strike against the University, and that YSU
       retrenched Goldberg because he had sued the University over Dean Phyllis
-      Paul’s alleged anti-Semitic rants, leading to YSU paying him a rumored
-      six-figure settlement. In the end, Reale’s and Goldberg’s{" "}
+      Paul’s alleged anti-Semitic rants. In the end, Reale’s and Goldberg’s{" "}
       <AnchorLink href={successfulArbitration} target="_blank">
         successful arbitration
       </AnchorLink>{" "}
