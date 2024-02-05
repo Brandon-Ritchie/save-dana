@@ -11,31 +11,18 @@ export default function Root() {
         <Card>
           <h2>What is happening?</h2>
           <Paragraph>
-            On December 6, YSU Admin presented to the Board of Trustees their
-            plans to cut Dana’s undergraduate degrees in Music Performance,
-            Music Composition, and the complete graduate program.
+            YSU Administration is further cutting the Dana School of Music,
+            shuttering the complete Composition program, the MM in Jazz Studies,
+            and the BA in Music.
           </Paragraph>
           <Paragraph>
-            On January 7, following an uproar from the community, YSU altered
-            its plans, announcing that it would instead cut programs in Music
-            Composition and Jazz Studies, as well as the BA in Music.
+            By February 21, a significant number of Dana faculty positions will
+            be eliminated.
           </Paragraph>
           <Paragraph>
-            On January 10, YSU Admin presented these cuts to a special meeting
-            of the Academic Senate, as a contractual requirement to be able to
-            fire faculty in those areas.
-          </Paragraph>
-          <Paragraph>
-            On January 12, YSU Admin sent out two new documents to Dana faculty,
-            preparing to eliminate their positions.
-          </Paragraph>
-          <Paragraph>
-            By January 31, an unknown number of Dana faculty will have been
-            fired without cause.
-          </Paragraph>
-          <Paragraph>
-            The Dana School of Music will not be able to continue to exist with
-            these cuts.
+            Based on the anticipated drop in student enrollment and retention
+            which these cuts will cause, we believe that the Dana School of
+            Music will not be able to survive.
           </Paragraph>
           <Link to="/war-on-music" className="btn btn-primary text-white">
             Learn more

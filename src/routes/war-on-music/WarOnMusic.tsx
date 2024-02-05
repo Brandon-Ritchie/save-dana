@@ -6,6 +6,7 @@ import Jan9thUpdate from "./Jan9thUpdate";
 import Jan8thUpdate from "./Jan8thUpdate";
 import Jan7thUpdate from "./Jan7thUpdate";
 import InitialStory from "./InitialStory";
+import Feb5thUpdate from "./Feb5thUpdate";
 
 export default () => {
   useLayoutEffect(() => {
@@ -15,6 +16,7 @@ export default () => {
   return (
     <>
       <h1>Youngstown State University’s War on Music</h1>
+      <Feb5thUpdate />
       <Jan17thUpdate />
       <Jan13thUpdate />
       <Jan10thUpdate />
