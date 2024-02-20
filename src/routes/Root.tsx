@@ -16,8 +16,9 @@ export default function Root() {
             and the BA in Music.
           </Paragraph>
           <Paragraph>
-            By February 21, a significant number of Dana faculty positions will
-            be eliminated.
+            A significant number of Dana faculty positions have been eliminated,
+            and many full-time tenured faculty will soon be replaced with
+            adjunct faculty.
           </Paragraph>
           <Paragraph>
             Based on the anticipated drop in student enrollment and retention
