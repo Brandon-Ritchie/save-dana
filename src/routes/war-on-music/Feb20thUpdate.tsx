@@ -8,13 +8,13 @@ export default function Feb20thUpdate() {
       <h2>Update - February 20th, 2024, 9:00am EST</h2>
       <Paragraph>
         We finally have some news about the cuts to Dana School of Music
-        faculty. While few specifics are yet known as to who is affected,
-        thirteen faculty positions throughout YSU—including a likely 7-8 from
-        Dana—have been eliminated. There will be no retrenchments, because a
-        sufficient number of faculty members in Dana and other programs applied
-        for the “voluntary” separation package (which was anything but
-        voluntary). The YSU community was treated to more gaslighting from
-        Interim Provost Jennifer Pintar yesterday:
+        faculty. Eight faculty positions out of Dana's twenty full-time faculty
+        have been eliminated, along with five faculty positions from other
+        departments. There will be no retrenchments, because a sufficient number
+        of faculty members in Dana and other programs applied for the
+        “voluntary” separation package (which was anything but voluntary). The
+        YSU community was treated to more gaslighting from Interim Provost
+        Jennifer Pintar yesterday:
       </Paragraph>
       <Quote>
         [T]hrough collaborative efforts between the faculty and administration,

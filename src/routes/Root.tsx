@@ -16,9 +16,8 @@ export default function Root() {
             and the BA in Music.
           </Paragraph>
           <Paragraph>
-            A significant number of Dana faculty positions have been eliminated,
-            and many full-time tenured faculty will soon be replaced with
-            adjunct faculty.
+            Eight out of Dana's twenty full-time positions have been eliminated;
+            40% of Dana's full-time faculty.
           </Paragraph>
           <Paragraph>
             Based on the anticipated drop in student enrollment and retention
