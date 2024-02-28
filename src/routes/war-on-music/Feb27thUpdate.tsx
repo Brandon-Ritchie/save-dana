@@ -7,14 +7,15 @@ export default function Feb27thUpdate() {
       <h2>Update - February 27th, 2024, 10:30pm EST</h2>
       <Paragraph>
         We now have the official list of the eight full-time Dana faculty
-        positions cut by the Administration. They consist of: the vocalist who
-        runs the opera program; the choral conductor; the flute professor; one
-        of two piano professors; the cello professor whose workload includes
-        much of the theory curriculum; the wind ensemble and orchestra and YSU
-        Youth Orchestra conductor; the violin professor who runs the String
-        Project and teaches additional theory courses; and the only remaining
-        music historian. The above, representing 40% of the current full-time
-        faculty at Dana, are in their final semester teaching at YSU.
+        positions cut by the Administration. They consist of: the vocal
+        professor who runs the opera program; the choral conductor; the flute
+        professor; one of two piano professors; the cello professor whose
+        workload includes much of the theory curriculum; the wind ensemble and
+        orchestra and YSU Youth Orchestra conductor; the violin professor who
+        runs the String Project and teaches additional theory courses; and the
+        only remaining music historian. The above, representing 40% of the
+        current full-time faculty at Dana, are in their final semester teaching
+        at YSU.
       </Paragraph>
       <Paragraph>
         Twelve full-time faculty will remain at Dana, down from twenty-seven
