@@ -1,5 +1,5 @@
-import { Link, Outlet } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
+import { Link, Outlet } from "react-router-dom";
 
 const PageLayout = () => {
   return (
@@ -55,9 +55,7 @@ const NavBar = () => {
 const Links = () => {
   const links = [
     { to: "/", label: "Home" },
-    { to: "/war-on-music", label: "War on Music" },
     { to: "/testimonials", label: "Testimonials" },
-    { to: "/what-can-i-do", label: "What Can I Do?" },
   ];
 
   return (

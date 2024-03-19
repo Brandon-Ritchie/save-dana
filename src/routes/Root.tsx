@@ -1,6 +1,4 @@
 import Card from "@/lib/components/Card";
-import { Link } from "react-router-dom";
-import cancelled from "@/assets/images/cancelled.jpg";
 import Paragraph from "@/lib/components/Paragraph";
 
 export default function Root() {
@@ -11,42 +9,67 @@ export default function Root() {
         <Card>
           <h2>What is happening?</h2>
           <Paragraph>
-            YSU Administration is further cutting the Dana School of Music,
-            shuttering the complete Composition program, the MM in Jazz Studies,
-            and the BA in Music.
+            The decisions and outcomes at YSU this semester have weighed heavily
+            on the Dana School of Music. We have so much love and respect for
+            our colleagues who will not be returning next year.
           </Paragraph>
           <Paragraph>
-            Eight out of Dana's twenty full-time positions have been eliminated;
-            40% of Dana's full-time faculty.
+            Throughout this situation, the community and alumni support has been
+            strong and inspiring. It has underscored the need for the arts and
+            arts education in our region and beyond, and the deep dedication and
+            love for those who have been touched by the Dana School of Music. We
+            are all very grateful for this support.
           </Paragraph>
           <Paragraph>
-            Based on the anticipated drop in student enrollment and retention
-            which these cuts will cause, we believe that the Dana School of
-            Music will not be able to survive.
+            The twelve returning full-time Dana faculty, along with our adjunct
+            faculty, have the expertise, innovative spirit, and flexibility to
+            continue to make this a successful program for our students. We will
+            continue to offer three rigorous and innovative undergraduate
+            degrees (B.M. in Music Education, Performance, and Audio + Music
+            Production) and two graduate degrees (M.M. in Music Education and
+            Performance).
           </Paragraph>
-          <Link to="/war-on-music" className="btn btn-primary text-white">
-            Learn more
-          </Link>
+          <Paragraph>
+            As the Dana School of Music begins its next chapter, please remain
+            confident that we will be able to continue serving you, our
+            community, and most importantly, our students, well into the future.
+          </Paragraph>
+          <Paragraph>
+            With gratitude,
+            <br />
+            <span className="font-bold">Dana Full-time Faculty and Staff</span>
+            <br />
+            Joe Carucci
+            <br />
+            Kent Engelhardt
+            <br />
+            Kate Ferguson
+            <br />
+            François Fowler
+            <br />
+            Bryan Helsel
+            <br />
+            Daniel Keown
+            <br />
+            Christopher Krummel
+            <br />
+            Paul Louth
+            <br />
+            Andrew Mitchell
+            <br />
+            Dave Morgan
+            <br />
+            Caroline Oltmanns
+            <br />
+            Stephanie Pavlovich
+            <br />
+            Sean Yancer
+            <br />
+            Glenn Schaft
+            <br />
+            Alice Wang
+          </Paragraph>
         </Card>
-      </section>
-      <section className="mx-auto my-8 flex flex-col-reverse justify-center lg:flex-row">
-        <div>
-          <h2>What Can I Do To Help?</h2>
-          <Paragraph>
-            <Link to="/what-can-i-do" className="underline">
-              Click here
-            </Link>{" "}
-            to learn about the many ways you can help save the Dana School of
-            Music.
-          </Paragraph>
-          <Paragraph>
-            <Link to="/testimonials" className="underline">
-              Click here
-            </Link>{" "}
-            to read testimonials from Dana School of Music alumni.
-          </Paragraph>
-        </div>
-        <img src={cancelled} alt="Cancelled" className="lg:ml-8 lg:w-1/2" />
       </section>
     </>
   );
