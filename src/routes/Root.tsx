@@ -63,8 +63,6 @@ export default function Root() {
             <br />
             Stephanie Pavlovich
             <br />
-            Sean Yancer
-            <br />
             Glenn Schaft
             <br />
             Alice Wang
