@@ -21,7 +21,7 @@ export default function Root() {
             are all very grateful for this support.
           </Paragraph>
           <Paragraph>
-            The twelve returning full-time Dana faculty, along with our adjunct
+            The 2024-25 returning full-time Dana faculty, along with our adjunct
             faculty, have the expertise, innovative spirit, and flexibility to
             continue to make this a successful program for our students. We will
             continue to offer three rigorous and innovative undergraduate
@@ -37,7 +37,9 @@ export default function Root() {
           <Paragraph>
             With gratitude,
             <br />
-            <span className="font-bold">Dana Full-time Faculty and Staff</span>
+            <span className="font-bold">
+              2024-25 Dana Full-time Faculty and Staff
+            </span>
             <br />
             Joe Carucci
             <br />
