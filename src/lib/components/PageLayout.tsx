@@ -53,10 +53,7 @@ const NavBar = () => {
 };
 
 const Links = () => {
-  const links = [
-    { to: "/", label: "Home" },
-    { to: "/testimonials", label: "Testimonials" },
-  ];
+  const links = [{ to: "/", label: "Home" }];
 
   return (
     <>
