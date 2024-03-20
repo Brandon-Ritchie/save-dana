@@ -65,8 +65,6 @@ export default function Root() {
             <br />
             Stephanie Pavlovich
             <br />
-            Glenn Schaft
-            <br />
             Alice Wang
           </Paragraph>
         </Card>
