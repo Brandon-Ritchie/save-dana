@@ -1,21 +1,26 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import PageLayout from "./lib/components/PageLayout.tsx";
-import Root from "./routes/Root.tsx";
+
+// const router = createBrowserRouter([
+//   {
+//     path: "",
+//     element: <PageLayout />,
+//     children: [
+//       {
+//         path: "/",
+//         element: <Root />,
+//       },
+//       {
+//         path: "*",
+//         element: <Root />,
+//       },
+//     ],
+//   },
+// ]);
 
 const router = createBrowserRouter([
   {
-    path: "",
-    element: <PageLayout />,
-    children: [
-      {
-        path: "/",
-        element: <Root />,
-      },
-      {
-        path: "*",
-        element: <Root />,
-      },
-    ],
+    path: "*",
+    element: null,
   },
 ]);
 
